@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.index');
 });
+
+/*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/

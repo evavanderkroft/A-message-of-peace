@@ -13,7 +13,14 @@
         "axios": "^0.19",
         "cross-env": "^7.0",
         "laravel-mix": "^5.0.1",
+        "laravel-mix-postcss-config": "^1.0.4",
+        "laravel-mix-purgecss": "^5.0.0",
         "lodash": "^4.17.19",
-        "resolve-url-loader": "^3.1.0"
+        "resolve-url-loader": "^3.1.0",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "aframe": "^1.0.4",
+        "tailwindcss": "^1.9.2"
     }
 }
