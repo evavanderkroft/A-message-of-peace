@@ -16,7 +16,7 @@
         "laravel-mix-postcss-config": "^1.0.4",
         "laravel-mix-purgecss": "^5.0.0",
         "lodash": "^4.17.19",
-        "resolve-url-loader": "^3.1.0",
+        "resolve-url-loader": "^3.1.2",
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
