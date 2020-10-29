@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('layouts.index');
 });
 
+Route::get('city_entrance', function () {
+    return view('scenes.city_entrance');
+});
+
 /*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
