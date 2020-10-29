@@ -1,4 +1,13 @@
 .index {
+  background-color:black;
+}
+.index {
+  /*background-image: '../../../../../';*/
+  background-color:#2b6cb0;
+  background-image: url("/images/clouds.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -105599,3 +105608,5 @@ video {
             animation: bounce 1s infinite;
   }
 }
+
+

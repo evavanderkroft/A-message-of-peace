@@ -1,0 +1,8 @@
+.index {
+    /*background-image: '../../../../../';*/
+    background-color:#2b6cb0;
+    background-image: url("/images/clouds.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
