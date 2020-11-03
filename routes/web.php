@@ -21,4 +21,8 @@ Route::get('/scene', function () {
     return view('layouts.scenes.index');
 });
 
+Route::get('/scene-1', function () {
+    return view('layouts.scenes.scene-1');
+});
+
 /*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
