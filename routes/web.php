@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 /*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
+Route::get('/intro', [\App\Http\Controllers\IntroController::class, 'index'])->name('intro');
+Route::get('/transition', [\App\Http\Controllers\IntroController::class, 'indexTransition'])->name('intro.transition');
