@@ -17,7 +17,7 @@ body {
 }
 
 .image {
-    background-image: url("img/city_entrance.jpg");
+    background: url(/img/city_entrance.jpg) no-repeat ;
     position: fixed;
     right: 0;
     bottom: 0;

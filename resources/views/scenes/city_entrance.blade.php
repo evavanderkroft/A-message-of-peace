@@ -8,7 +8,6 @@
         </section>
         <div class="image">
             <div id="video-toggle" style="display: none">
-                @include('layouts.videos.css')
 
                 <video id="video" poster autoplay loop>
                     <source src="videos/1.mp4" type="video/mp4">
@@ -27,10 +26,59 @@
                 <button id="showVideoBtn" style="display: block" class="buttoncircle" onclick="showVideo()"></button>
                 <button id="backBtn" class="backbtn" onclick="goBack()">Back</button>
             </div>
-            @include('layouts.videos.js')
         </div>
     </main>
     {{--footer--}}
+    <script>
+        let video = document.getElementById("video");
+        let buttontoggle = document.getElementById("button-toggle");
+        let pausebtn = document.getElementById("pauseBtn");
+        let mutebtn = document.getElementById("muteBtn");
+
+        let toggle = document.getElementById("video-toggle");
+
+        function showVideo() {
+            if (toggle.style.display === "none") {
+                toggle.style.display = "block";
+                buttontoggle.style.display = "none";
+            } else {
+                toggle.style.display = "none";
+                buttontoggle.style.display = "block";
+            }
+        }
+
+        function quitVideo() {
+
+            video.pause();
+            mutebtn.innerHTML = "Unmute";
+            toggle.style.display = "none";
+            buttontoggle.style.display = "block";
+            pausebtn.innerHTML = "Play";
+        }
+
+        function goBack() {
+            history.back()
+        }
+
+        function pauseVideo() {
+            if (video.paused) {
+                video.play();
+                pausebtn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                pausebtn.innerHTML = "Play";
+            }
+        }
+
+        function muteVideo() {
+            video.muted = !video.muted
+            if (video.muted) {
+                mutebtn.innerHTML = "Unmute";
+            } else {
+                mutebtn.innerHTML = "Mute";
+            }
+        }
+    </script>
     @include ('layouts.partials.footer')
 
 @endsection

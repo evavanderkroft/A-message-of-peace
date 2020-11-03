@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('layouts.index');
 });
 
-Route::get('city_entrance', function () {
+Route::get('/city_entrance', function () {
     return view('scenes.city_entrance');
 });
 
