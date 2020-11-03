@@ -20,3 +20,8 @@
     /*scenes*/
     @import 'layouts/scenes/index.css';
     @import 'layouts/scenes/scene-1.css';
+
+    /*scenes*/
+    @import 'layouts/intro.css';
+
+

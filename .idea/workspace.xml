@@ -27,22 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b579da39-6e4c-4c36-993e-2f1a3023c17c" name="Default Changelist" comment="Set-up Laravel framework">
-      <change afterPath="$PROJECT_DIR$/public/images/2men.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/centrum.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/layouts/scenes/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/layouts/scenes/scene-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/scenes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/scenes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/scenes/scene-1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/scenes/scene-1.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +48,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Feature/intro" />
+  </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="Feature/scene" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Master" />
+        <entry key="$PROJECT_DIR$" value="Feature/intro" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,6 +193,11 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="Development" />
+    </force-push-targets>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
@@ -227,6 +221,8 @@
       <workItem from="1602768365081" duration="4849000" />
       <workItem from="1604135499702" duration="119000" />
       <workItem from="1604395353952" duration="15036000" />
+      <workItem from="1604428574568" duration="107000" />
+      <workItem from="1604428681222" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="updated .gitignore and README">
       <created>1602768828538</created>
@@ -274,30 +270,34 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1374" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602769998436" />
+    <state x="259" y="25" key="CommitChangelistDialog2" timestamp="1604428884946">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="259" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604428884946" />
     <state x="1043" y="610" key="ComposerInitDialogKey" timestamp="1602769192070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1043" y="610" key="ComposerInitDialogKey/0.0.2560.1400@0.0.2560.1400" timestamp="1602769192070" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1604396417348">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1604428566033">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1236" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1602772226907" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1604396417348" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1604396417346">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1604428566033" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1604428566031">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1236" height="396" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1602772226907" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1604396417346" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1604396417345">
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1604428566031" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1604428566031">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1236" height="396" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1602772226907" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1604396417345" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1604396417346">
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1604428566031" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1604428566032">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1236" height="396" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602772226907" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1604396417346" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1604428566032" />
     <state x="1754" y="619" key="NewPhpFileDialog" timestamp="1602773223150">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -306,9 +306,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1604402066816" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1602768887883">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="491" y="293" key="Vcs.Push.Dialog.v2" timestamp="1604428878728">
+      <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1602768887883" />
+    <state x="491" y="293" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1604428878728" />
   </component>
 </project>
