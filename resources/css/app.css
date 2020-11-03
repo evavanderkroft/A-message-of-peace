@@ -12,10 +12,11 @@
 
 /*layouts*/
 @import 'layouts/index.css';
-@import 'layouts/intro.css';
 
     /*partials*/
     @import 'layouts/partials/header.css';
     @import 'layouts/partials/footer.css';
 
-
+    /*scenes*/
+    @import 'layouts/scenes/index.css';
+    @import 'layouts/scenes/scene-1.css';

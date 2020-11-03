@@ -19343,6 +19343,9 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -19384,8 +19387,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Eva van der kroft\Documents\root\message_of_peace\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Eva van der kroft\Documents\root\message_of_peace\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! /Users/rikvermeulen/Documents/websites/A-message-of-peace/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/rikvermeulen/Documents/websites/A-message-of-peace/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })

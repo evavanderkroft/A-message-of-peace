@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('layouts.index');
 });
 
+Route::get('/scene', function () {
+    return view('layouts.scenes.index');
+});
+
+Route::get('/scene-1', function () {
+    return view('layouts.scenes.scene-1');
+});
+
 /*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
 Route::get('/intro', [\App\Http\Controllers\IntroController::class, 'index'])->name('intro');
 Route::get('/transition', [\App\Http\Controllers\IntroController::class, 'indexTransition'])->name('intro.transition');
