@@ -21,7 +21,10 @@
     @import 'layouts/scenes/index.css';
     @import 'layouts/scenes/scene-1.css';
 
-    /*scenes*/
+    /*video*/
+    @import 'layouts/partials/video.css';
+
+    /*intro*/
     @import 'layouts/intro.css';
 
 

@@ -27,8 +27,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b579da39-6e4c-4c36-993e-2f1a3023c17c" name="Default Changelist" comment="Set-up Laravel framework">
+      <change afterPath="$PROJECT_DIR$/resources/views/temp/intro/intro.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/temp/intro/transition.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IntroController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IntroController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/layouts/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/layouts/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/layouts/partials/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/layouts/partials/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/layouts/scenes/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/layouts/scenes/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/layouts/scenes/scene-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/layouts/scenes/scene-1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/intro/intro.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/intro/transition.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/transition.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/scenes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/scenes/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/scenes/scene-1.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/scenes/scene-1.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/scenes/city_entrance.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/scenes/city_entrance.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +64,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="Feature/intro" />
+    <option name="BRANCH" value="Feature/video" />
   </component>
   <component name="Git.Pull.Settings">
     <option name="BRANCH" value="Feature/scene" />
@@ -188,6 +203,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts/videos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -199,7 +215,13 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/layouts/videos" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/layouts/scenes" />
+      <recent name="$PROJECT_DIR$/resources/views/temp" />
+      <recent name="$PROJECT_DIR$/resources/views/layouts" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -223,6 +245,7 @@
       <workItem from="1604395353952" duration="15036000" />
       <workItem from="1604428574568" duration="107000" />
       <workItem from="1604428681222" duration="325000" />
+      <workItem from="1604430791424" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="updated .gitignore and README">
       <created>1602768828538</created>
@@ -270,10 +293,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1374" y="355" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1602769998436" />
-    <state x="259" y="25" key="CommitChangelistDialog2" timestamp="1604428884946">
+    <state x="259" y="25" key="CommitChangelistDialog2" timestamp="1604431371639">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="259" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604428884946" />
+    <state x="259" y="25" key="CommitChangelistDialog2/0.25.1440.875@0.25.1440.875" timestamp="1604431371639" />
     <state x="1043" y="610" key="ComposerInitDialogKey" timestamp="1602769192070">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -298,6 +321,14 @@
     </state>
     <state width="1236" height="396" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1602772226907" />
     <state width="1398" height="223" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1604428566032" />
+    <state x="144" y="98" key="MergeDialog" timestamp="1604430958212">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="144" y="98" key="MergeDialog/0.25.1440.875@0.25.1440.875" timestamp="1604430958212" />
+    <state x="354" y="220" key="MultipleFileMergeDialog" timestamp="1604430960810">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="354" y="220" key="MultipleFileMergeDialog/0.25.1440.875@0.25.1440.875" timestamp="1604430960810" />
     <state x="1754" y="619" key="NewPhpFileDialog" timestamp="1602773223150">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -306,10 +337,10 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1604402066816" />
-    <state x="491" y="293" key="Vcs.Push.Dialog.v2" timestamp="1604428878728">
+    <state x="491" y="293" key="Vcs.Push.Dialog.v2" timestamp="1604431391475">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1602768887883" />
-    <state x="491" y="293" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1604428878728" />
+    <state x="491" y="293" key="Vcs.Push.Dialog.v2/0.25.1440.875@0.25.1440.875" timestamp="1604431391475" />
   </component>
 </project>

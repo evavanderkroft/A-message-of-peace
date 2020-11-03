@@ -8,11 +8,11 @@ class IntroController extends Controller
 {
     public function index()
     {
-        return view('intro.intro');
+        return view('layouts.index');
     }
     public function indexTransition()
     {
-        return view('intro.transition');
+        return view('layouts.transition');
     }
 }
 

@@ -8,9 +8,16 @@
                 <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
                     <div class="background-layer-1">
                     </div>
-                    <a class="z-50 text-gray-500 absolute button-left arrow" href="{{ url('/') }}"></a>
-                    <a class="z-50 text-gray-500 absolute button-right arrow" href="{{ url('/') }}"></a>
-
+                    <div class="button-left">
+                        <a class="z-50 text-gray-500 absolute arrow-left" href="{{ url('/scene-1') }}">
+                        </a>
+                        <span>The city</span>
+                    </div>
+                    <div class="button-right">
+                        <a class="z-50 text-gray-500 absolute arrow-right" href="{{ url('/') }}">
+                        </a>
+                        <span>coming soon</span>
+                    </div>
                 </li>
                 <li class="layer layer-2 z-0" data-depth="0.10" style="">
                     <img src="{{ asset('/images/sky.jpg') }}" alt="">

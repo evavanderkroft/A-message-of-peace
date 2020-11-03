@@ -8,8 +8,16 @@
                 <li class="layer scene1-layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
                     <div class="scene1-background-layer-1">
                     </div>
-                    <a class="z-50 text-gray-500 absolute button-left arrow" href="{{ url('/') }}"></a>
-                    <a class="z-50 text-gray-500 absolute button-right arrow" href="{{ url('/') }}"></a>
+                    <div class="scene1-button-left">
+                        <a class="z-50 text-gray-500 absolute scene1-arrow-left" href="{{ url('/scene') }}">
+                        </a>
+                        <span>The outer city</span>
+                    </div>
+                    <div class="scene1-button-right">
+                        <a class="z-50 text-gray-500 absolute scene1-arrow-right" href="{{ url('/city_entrance') }}">
+                        </a>
+                        <span>Main road</span>
+                    </div>
 
                 </li>
                 <li class="layer scene1-layer-2 z-0" data-depth="0.10" style="">

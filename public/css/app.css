@@ -73,16 +73,16 @@ body {
 .button-left {
   bottom: 50%;
   left: 15%;
-  transform: translate3d(0,-50%,0) rotate(200deg);
+  position: absolute;
 }
 
 .button-right {
-  bottom: 50%;
-  right: 15%;
-  transform: translate3d(0,-50%,0) rotate(270deg);
+  bottom: 55%;
+  right: 3%;
+  position: absolute;
 }
 
-.arrow {
+.arrow-left {
   position: absolute;
   width: 3vmin;
   height: 3vmin;
@@ -90,6 +90,26 @@ body {
   border-top: 1vmin solid #5ecb5e;
   border-right: 1vmin solid #5ecb5e;
   transition: all 200ms ease;
+  transform: translate3d(0,-50%,0) rotate(200deg);
+}
+
+.arrow-right{
+  position: absolute;
+  width: 3vmin;
+  height: 3vmin;
+  background: transparent;
+  border-top: 1vmin solid #5ecb5e;
+  border-right: 1vmin solid #5ecb5e;
+  transition: all 200ms ease;
+  transform: translate3d(0,-50%,0) rotate(270deg);
+}
+
+.button-right span, .button-left span {
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 5px;
 }
 
 .arrow:hover {
@@ -154,19 +174,139 @@ body {
     height: 100%;
 }*/
 
-/*
-.button-left {
-    bottom: 50%;
-    left: 15%;
-    transform: translate3d(0,-50%,0) rotate(200deg);
+.scene1-arrow-left {
+  position: absolute;
+  width: 3vmin;
+  height: 3vmin;
+  background: transparent;
+  border-top: 1vmin solid #5ecb5e;
+  border-right: 1vmin solid #5ecb5e;
+  transition: all 200ms ease;
+  transform: translate3d(0,-50%,0) rotate(200deg);
 }
 
-.button-right {
-    bottom: 50%;
-    right: 15%;
-    transform: translate3d(0,-50%,0) rotate(270deg);
+.scene1-arrow-right{
+  position: absolute;
+  width: 3vmin;
+  height: 3vmin;
+  background: transparent;
+  border-top: 1vmin solid #5ecb5e;
+  border-right: 1vmin solid #5ecb5e;
+  transition: all 200ms ease;
+  transform: translate3d(0,-50%,0) rotate(270deg);
 }
-*/
+
+.scene1-button-right span, .scene1-button-left span {
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.scene1-button-left {
+  bottom: 50%;
+  left: 15%;
+  position: absolute;
+}
+
+.scene1-button-right {
+  bottom: 55%;
+  right: 3%;
+  position: absolute;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.image {
+  background: url(/img/city_entrance.jpg) no-repeat ;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.buttoncircle {
+  background-color: #fc6e91;
+  border: 5px solid rgba(255,255,255,.75);
+  color: white;
+  position: absolute;
+  transition: .5s ease;
+  top:30%;
+  left:20%;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.buttoncircle:hover {
+  border: 1px solid rgba(255,255,255,.75);
+}
+
+.backbtn {
+  position: absolute;
+  transition: .5s ease;
+  top:85%;
+  left:50%;
+  text-align: center;
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.backbtn:hover {
+  border: 1px solid rgba(255,255,255,.75);
+}
 body {
   /*background-image: '../../../../../';*/
   background-image: url("/images/cloudgif.gif");
@@ -195,7 +335,7 @@ body {
 
 .button{
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -21869,7 +22009,9 @@ video {
 
 /*scenes*/
 
-/*scenes*/
+/*video*/
+
+/*intro*/
 
 @media (min-width: 640px) {
   .sm\:container {
