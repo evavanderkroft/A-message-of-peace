@@ -8,17 +8,26 @@
                 <li class="layer scene1-layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
                     <div class="scene1-background-layer-1">
                     </div>
-                    <div class="scene1-button-left">
-                        <a class="z-50 text-gray-500 absolute scene1-arrow-left" href="{{ url('/scene') }}">
+                    <div class="button-left">
+                        <a class="z-50 text-gray-500 absolute arrow-left" href="{{ route('city-slum') }}">
                         </a>
-                        <span>The outer city</span>
+                        <span>Go to the Slum</span>
                     </div>
-                    <div class="scene1-button-right">
-                        <a class="z-50 text-gray-500 absolute scene1-arrow-right" href="{{ url('/city_entrance') }}">
+                    <div class="button-top">
+                        <a class="z-50 text-gray-500 absolute arrow-top" href="{{ route('city-rich') }}">
                         </a>
-                        <span>Main road</span>
+                        <span>Go to the Rich</span>
                     </div>
-
+                    <div class="button-right">
+                        <a class="z-50 text-gray-500 absolute arrow-right" href="{{ route('city-school') }}">
+                        </a>
+                        <span>Go to the School</span>
+                    </div>
+                    <div class="button-down">
+                        <a class="z-50 text-gray-500 absolute arrow-down" href="{{ route('main-road') }}">
+                        </a>
+                        <span>Go back to the Main Road</span>
+                    </div>
                 </li>
                 <li class="layer scene1-layer-2 z-0" data-depth="0.10" style="">
                     <img src="{{ asset('/images/sky.jpg') }}" alt="">
