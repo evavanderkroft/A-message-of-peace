@@ -1,0 +1,117 @@
+body {
+    height:100%;
+}
+
+.button-link {
+
+}
+
+.layer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.layer-1 {
+    position: relative;
+    height: 1200px;
+}
+
+.layer-2 {
+    height: 400px;
+}
+
+.layer-3 {
+    width: 30%;
+    right: 20% !important;
+    left: unset !important;
+    height: 100%;
+    bottom: 10vw;
+    top: unset !important;
+}
+
+.background-layer-1 {
+    background: url(/images/city.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    bottom: 30vh;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 150%;
+    left: -10%;
+    /*top: -5%;*/
+    height: 100%;
+}
+
+.background-layer-2 {
+    background: url(/images/sky.jpg) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 110% auto;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 150%;
+    left: -10%;
+    top: -5%;
+    height: 100%;
+}
+
+.background-layer-3 {
+    background: url(/images/2men.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 100%;
+    /*left: -10%;
+    top: -5%;*/
+    height: 100%;
+}
+
+.button-left {
+    bottom: 50%;
+    left: 15%;
+    position: absolute;
+}
+
+.button-right {
+    bottom: 55%;
+    right: 3%;
+position: absolute;
+}
+
+.arrow-left {
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(200deg);
+}
+
+.arrow-right{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(270deg);
+}
+
+.button-right span, .button-left span {
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5px;
+}
+.arrow:hover {
+    border-color: #7ebe7e;
+    box-shadow: 0.5vmin -0.5vmin 0 #4c8147;
+}
