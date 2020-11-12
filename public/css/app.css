@@ -76,11 +76,25 @@ body {
   position: absolute;
 }
 
+.button-top {
+  bottom: 70%;
+  left: 40%;
+  position: absolute;
+}
+
 .button-right {
   bottom: 55%;
   right: 3%;
   position: absolute;
 }
+
+.button-down {
+  bottom: 45%;
+  right: 40%;
+  position: absolute;
+}
+
+/* Hieronder komt de CSS voor de pijlen die Jasper maakt*/
 
 .arrow-left {
   position: absolute;
@@ -91,6 +105,17 @@ body {
   border-right: 1vmin solid #5ecb5e;
   transition: all 200ms ease;
   transform: translate3d(0,-50%,0) rotate(200deg);
+}
+
+.arrow-top{
+  position: absolute;
+  width: 3vmin;
+  height: 3vmin;
+  background: transparent;
+  border-top: 1vmin solid #5ecb5e;
+  border-right: 1vmin solid #5ecb5e;
+  transition: all 200ms ease;
+  transform: translate3d(0,-50%,0) rotate(270deg);
 }
 
 .arrow-right{
@@ -104,13 +129,28 @@ body {
   transform: translate3d(0,-50%,0) rotate(270deg);
 }
 
-.button-right span, .button-left span {
-  color: black;
-  background-color: #fff;
+.arrow-down{
+  position: absolute;
+  width: 3vmin;
+  height: 3vmin;
+  background: transparent;
+  border-top: 1vmin solid #5ecb5e;
+  border-right: 1vmin solid #5ecb5e;
+  transition: all 200ms ease;
+  transform: translate3d(0,-50%,0) rotate(270deg);
+}
+
+/* Hieronder is de span voor de pijlen met de naam van de locatie waar je naartoe ga */
+
+.button-right span, .button-left span, .button-top span, .button-down span {
+  color: #000000;
+  background-color: #ffffff;
   padding: 10px;
   margin: 40px;
   border-radius: 5px;
 }
+
+/* Hieronder is de hover voor wanneer je hovert op de pijl*/
 
 .arrow:hover {
   border-color: #7ebe7e;
