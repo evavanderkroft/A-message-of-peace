@@ -19,17 +19,30 @@ Route::get('/', function () {
 
 /*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
 
-Route::get('/city_entrance', function () {
-    return view('layouts.scenes.city_entrance');
-});
+// City Scenes
+Route::get('/city-entrance', function () {
+    return view('layouts.scenes.city.city-entrance');})->name('city-entrance');
+Route::get('/city-rich', function () {
+    return view('layouts.scenes.city.city-rich');})->name('city-rich');
+Route::get('/city-slum', function () {
+    return view('layouts.scenes.city.city-slum');})->name('city-slum');
+Route::get('/city-school', function () {
+    return view('layouts.scenes.city.city-school');})->name('city-school');
 
-Route::get('/scene', function () {
-    return view('layouts.scenes.index');
-});
+// Village Scenes
+Route::get('/village-entrance', function () {
+    return view('layouts.scenes.village.village-entrance');})->name('village-entrance');
+Route::get('/village-school', function () {
+    return view('layouts.scenes.village.village-school');})->name('village-school');
+Route::get('/village-farm', function () {
+    return view('layouts.scenes.village.village-farm');})->name('village-farm');
+Route::get('/village-waterwell', function () {
+    return view('layouts.scenes.village.village-waterwell');})->name('village-waterwell');
 
-Route::get('/scene-1', function () {
-    return view('layouts.scenes.scene-1');
-});
+// Other Scenes
+Route::get('/main-road', function () {
+    return view('layouts.scenes.main-road');
+})->name('main-road');
 
 Route::get('/intro', [\App\Http\Controllers\IntroController::class, 'index'])->name('intro');
 Route::get('/transition', [\App\Http\Controllers\IntroController::class, 'indexTransition'])->name('intro.transition');
