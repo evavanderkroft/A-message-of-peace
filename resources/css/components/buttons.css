@@ -1,38 +1,69 @@
-/* text */
-.text {
-    position: relative;
-    animation-name: text_in;
-    animation-duration: .2s;
-    animation-timing-function: ease-in;
+/* arrows */
+.arrow_container{
+    position:absolute;
+    height: 140px;width: 140px;
+    text-align: center
+}
+.arrow{
+    stroke:#FFE555;
+    stroke-width:4px;
+    animation-name: arrow_empty;
+    animation-duration: .4s;
     animation-fill-mode: forwards;
 }
-.text:hover{
-    animation-name: text_out;
-    animation-duration: .2s;
-    animation-timing-function: ease-in;
+.arrow:hover{
+    animation-name: arrow_fill;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes arrow_empty {
+    from{
+        fill:#FFE555;
+        transform: scale(1.2);
+    }
+    to{
+        fill:transparent;
+        transform: scale(1);
+    }
+}
+@keyframes arrow_fill {
+    from{
+        fill:transparent;
+        transform: scale(1);
+    }
+    to{
+        fill:#FFE555;
+        transform: scale(1.2);
+    }
+}
+
+.arrow_text {
+    display: none;
+    font-size: 20px;
+    animation-name: text_visible;
+    animation-duration: .5s;
     animation-fill-mode: forwards;
 }
-@keyframes text_out{
-    from {color: transparent;
-        left: 50px;
-        letter-spacing: 10px;}
-    to 	{color: black;
-        left: 0px;
-        letter-spacing: 0px;}
+@keyframes text_visible{
+    from {
+        letter-spacing: 2px;
+        color: transparent;
+    }
+    to 	{
+        color: black;
+        letter-spacing: 0px;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
 }
-@keyframes text_in{
-    from {color: black;
-        left: 0px;
-        letter-spacing: 0px;}
-    to 	{color: transparent;
-        left: 50px;
-        letter-spacing: 10px;}
+.arrow_container:hover .arrow_text {
+    display: block;
 }
 /* info button */
 .infobutton {
     position:absolute;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     left:50%; top:50%;
 
