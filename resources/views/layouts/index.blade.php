@@ -16,6 +16,7 @@
 
         <div class="container">
             <a class="button" href="{{route('intro.transition')}}">start</a>
+            <div class="infobutton" style="top:65%; left:50%;"></div>
         </div>
 
     </main>
