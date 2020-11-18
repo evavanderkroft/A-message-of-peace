@@ -152,3 +152,8 @@ body {
     border-color: #7ebe7e;
     box-shadow: 0.5vmin -0.5vmin 0 #4c8147;
 }
+
+.popup {
+    background-color: yellow; /* Dit moet naar een goudkleur */
+    position: absolute;
+}
