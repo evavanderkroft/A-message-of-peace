@@ -1,3 +1,204 @@
+/* arrows */
+
+.arrow_container{
+  position:absolute;
+  height: 140px;
+  width: 140px;
+  text-align: center
+}
+
+.arrow{
+  stroke:#FFE555;
+  stroke-width:4px;
+  -webkit-animation-name: arrow_empty;
+          animation-name: arrow_empty;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.arrow:hover{
+  -webkit-animation-name: arrow_fill;
+          animation-name: arrow_fill;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes arrow_empty {
+  from{
+    fill:#FFE555;
+    transform: scale(1.2);
+  }
+
+  to{
+    fill:transparent;
+    transform: scale(1);
+  }
+}
+
+@keyframes arrow_empty {
+  from{
+    fill:#FFE555;
+    transform: scale(1.2);
+  }
+
+  to{
+    fill:transparent;
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes arrow_fill {
+  from{
+    fill:transparent;
+    transform: scale(1);
+  }
+
+  to{
+    fill:#FFE555;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes arrow_fill {
+  from{
+    fill:transparent;
+    transform: scale(1);
+  }
+
+  to{
+    fill:#FFE555;
+    transform: scale(1.2);
+  }
+}
+
+.arrow_text {
+  display: none;
+  font-size: 20px;
+  -webkit-animation-name: text_visible;
+          animation-name: text_visible;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes text_visible{
+  from {
+    letter-spacing: 2px;
+    color: transparent;
+  }
+
+  to 	{
+    color: black;
+    letter-spacing: 0px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+}
+
+@keyframes text_visible{
+  from {
+    letter-spacing: 2px;
+    color: transparent;
+  }
+
+  to 	{
+    color: black;
+    letter-spacing: 0px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  }
+}
+
+.arrow_container:hover .arrow_text {
+  display: block;
+}
+
+/* info button */
+
+.infobutton {
+  position:absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left:50%; top:50%;
+  -webkit-animation-name: button_shrink;
+          animation-name: button_shrink;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.infobutton:hover{
+  -webkit-animation-name: button_expand;
+          animation-name: button_expand;
+  box-shadow: 0 0 5px grey, inset 0 0 5px grey;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes button_expand {
+  from {
+    box-shadow: 0 0 6px grey, inset 0 0 5px grey;
+    border: 4px solid #FFE555;
+  }
+
+  to {
+    background-color: #FFE555;
+    border: 5px solid #FFE555;
+    box-shadow: 0 0 8px grey;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes button_expand {
+  from {
+    box-shadow: 0 0 6px grey, inset 0 0 5px grey;
+    border: 4px solid #FFE555;
+  }
+
+  to {
+    background-color: #FFE555;
+    border: 5px solid #FFE555;
+    box-shadow: 0 0 8px grey;
+    transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes button_shrink {
+  from {
+    background-color: #FFE555;
+    border: 5px solid #FFE555;
+    box-shadow: 0 0 8px grey;
+    transform: scale(1.2);
+  }
+
+  to {
+    box-shadow: 0 0 6px grey, inset 0 0 5px grey;
+    border: 4px solid #FFE555;
+    transform: scale(1);
+  }
+}
+
+@keyframes button_shrink {
+  from {
+    background-color: #FFE555;
+    border: 5px solid #FFE555;
+    box-shadow: 0 0 8px grey;
+    transform: scale(1.2);
+  }
+
+  to {
+    box-shadow: 0 0 6px grey, inset 0 0 5px grey;
+    border: 4px solid #FFE555;
+    transform: scale(1);
+  }
+}
 
 body {
   height:100%;
