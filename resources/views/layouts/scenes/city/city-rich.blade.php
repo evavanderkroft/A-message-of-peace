@@ -13,6 +13,20 @@
                         </a>
                         <span>Go back to the City</span>
                     </div>
+                    <div class="button-blue" onclick="showPopup()">
+                    </div>
+                    <div id="popup" class="popup">
+
+                        <h1>Wealth in the Cities</h1>
+                        <p>The bigger cities in Uganda are home to the more wealthy citizens.
+                            Their cities are a lot better developed and offer better homes and
+                            a more luxurious life in comparison to the villages. Banking options
+                            are also mainly available in urban areas, there are just about
+                            5 million bank accounts for a population of just over 40 million.
+                            Public investment for bigger cities also favors the rich,
+                            such as construction of modern hospitals, something the poor
+                            could never make use of. </p>
+                    </div>
                 </li>
                 <li class="layer layer-2 z-0" data-depth="0.10" style="">
                     <img src="{{ asset('/images/sky.jpg') }}" alt="">
@@ -22,7 +36,6 @@
                 </li>
                 <li class="layer layer-3 z-20" data-depth="0.60" data-depth-y="0.30" style="">
                     <div class="background-layer-3">
-
                     </div>
                 </li>
             </div>
