@@ -13,7 +13,7 @@
         </section>
 
         <div class="container">
-            <a class="button" href="{{url('/scene')}}">start</a>
+            <a class="button" href="{{ route('main-road') }}">start</a>
         </div>
 
     </main>
