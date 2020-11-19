@@ -52,7 +52,7 @@
     }
     to 	{
         color: black;
-        letter-spacing: 0px;
+        letter-spacing: 0;
         text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     }
 }
