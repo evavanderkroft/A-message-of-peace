@@ -21,6 +21,9 @@
     @import 'layouts/scenes/index.css';
     @import 'layouts/scenes/scene-1.css';
 
+        /*village*/
+        @import 'layouts/scenes/village/index.css';
+
     /*video*/
     @import 'layouts/partials/video.css';
 
