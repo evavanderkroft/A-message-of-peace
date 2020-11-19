@@ -24,7 +24,16 @@
             </div>
             <div id="button-toggle" style="display: block">
                 <button id="showVideoBtn" style="display: block" class="buttoncircle" onclick="showVideo()"></button>
-                <button id="backBtn" class="backbtn" onclick="goBack()">Back</button>
+                <div class="arrow_container" style="top:70%; left:45%;" >
+                    <svg height="120" width="120" style="transform:rotate(180deg)">
+                        <a href="{{ route('city-entrance') }}" >
+                            <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
+                        </a>
+                    </svg>
+                    <div class="arrow_text">
+                        <p>Go back to the City</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -54,10 +63,6 @@
             toggle.style.display = "none";
             buttontoggle.style.display = "block";
             pausebtn.innerHTML = "Play";
-        }
-
-        function goBack() {
-            history.back()
         }
 
         function pauseVideo() {
