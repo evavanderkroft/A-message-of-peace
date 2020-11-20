@@ -8,10 +8,6 @@
                 <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
                     <div class="background-layer-1">
                     </div>
-{{--                    Onclick zorgt ervoor dat je de popup display block of none--}}
-                    <div class="infobutton" style="top:35%; left:60%;" onclick="">
-                    </div>
-
                     <div class="arrow_container" style="top:35%; left:10%;" >
                         <svg height="120" width="120" style="transform:rotate(280deg)">
                             <a href="{{ route('city-entrance') }}" >

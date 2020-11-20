@@ -10,11 +10,9 @@
             <h1> of Ugandan citizens through their perspective and thereby </h1>
                 <br>
             <h1> experiencing the issues of social inequality in Uganda.</h1>
+            <a class="button" href="{{ route('main-road') }}">start</a>
         </section>
 
-        <div class="container">
-            <a class="button" href="{{ route('main-road') }}">start</a>
-        </div>
 
     </main>
     {{--footer--}}

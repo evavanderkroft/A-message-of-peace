@@ -576,14 +576,13 @@ body {
 
 .button{
   position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #f1f1f1;
   color: black;
   font-size: 16px;
   padding: 16px 30px;
+  margin: 15px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -597,7 +596,7 @@ body {
 
 .container{
   margin:250px 50px 50px 50px;
-  padding: 50px 30px 150px 30px;
+  padding: 50px 30px 100px 30px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

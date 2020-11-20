@@ -8,36 +8,36 @@
                 <li class="layer scene1-layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
                     <div class="scene1-background-layer-1">
                     </div>
-                    <div class="arrow_container" style="top:10%; left:46%;" >
-                        <svg height="120" width="120" style="transform:rotate(0deg)">
-                            <a href="{{ route('city-slum') }}" >
-                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
-                            </a>
-                        </svg>
-                        <div class="arrow_text">
-                            <p>Go to the Slum</p>
-                        </div>
-                    </div>
-                    <div class="arrow_container" style="top:35%; left:10%;" >
-                        <svg height="120" width="120" style="transform:rotate(280deg)">
-                            <a href="{{ route('city-rich') }}" >
-                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
-                            </a>
-                        </svg>
-                        <div class="arrow_text">
-                            <p>Go to the Rich Place</p>
-                        </div>
-                    </div>
-                    <div class="arrow_container" style="top:35%; right:10%;" >
-                        <svg height="120" width="120" style="transform:rotate(80deg)">
-                            <a href="{{ route('city-school') }}" >
-                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
-                            </a>
-                        </svg>
-                        <div class="arrow_text">
-                            <p>Go to the School</p>
-                        </div>
-                    </div>
+{{--                    <div class="arrow_container" style="top:10%; left:46%;" >--}}
+{{--                        <svg height="120" width="120" style="transform:rotate(0deg)">--}}
+{{--                            <a href="{{ route('city-slum') }}" >--}}
+{{--                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>--}}
+{{--                            </a>--}}
+{{--                        </svg>--}}
+{{--                        <div class="arrow_text">--}}
+{{--                            <p>Go to the Slum</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="arrow_container" style="top:35%; left:10%;" >--}}
+{{--                        <svg height="120" width="120" style="transform:rotate(280deg)">--}}
+{{--                            <a href="{{ route('city-rich') }}" >--}}
+{{--                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>--}}
+{{--                            </a>--}}
+{{--                        </svg>--}}
+{{--                        <div class="arrow_text">--}}
+{{--                            <p>Go to the Rich Place</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="arrow_container" style="top:35%; right:10%;" >--}}
+{{--                        <svg height="120" width="120" style="transform:rotate(80deg)">--}}
+{{--                            <a href="{{ route('city-school') }}" >--}}
+{{--                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>--}}
+{{--                            </a>--}}
+{{--                        </svg>--}}
+{{--                        <div class="arrow_text">--}}
+{{--                            <p>Go to the School</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="arrow_container" style="top:50%; left:45%;" >
                         <svg height="120" width="120" style="transform:rotate(180deg)">
                             <a href="{{ route('main-road') }}" >
