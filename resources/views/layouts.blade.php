@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
+
         <title>@yield('pageTitle')</title>
         <meta name="" content="">
         <meta name="title" content="">
@@ -18,7 +19,7 @@
         <meta name="google" content="notranslate">
         <meta name="theme-color" content="#fff">
         <meta name="generator" content="PHPStorm">
-
+        <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
         <link rel="license" href="copyright.html">
 
         <!--social-->
@@ -67,7 +68,7 @@
     <body class="font-sans">
 
     @yield('content')
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
     <livewire:scripts>
     </body>

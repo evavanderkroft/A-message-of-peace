@@ -19343,6 +19343,9 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
