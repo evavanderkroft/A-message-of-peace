@@ -1,15 +1,23 @@
-body {
-    /*background-image: '../../../../../';*/
+/*body {
+    !*background-image: '../../../../../';*!
     background-image: url("/images/cloudgif.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow:hidden;
+}*/
+
+#transition {
+    width: 100vw;
+    height: 100vh;
 }
 
 .vlak{
+    margin-top: 40vh;
     background-color:rgba(242, 242, 228, 0.4);
     border-radius: 25px;
+    padding: 100px 40px;
+
 }
 
 .text-intro{
@@ -43,10 +51,5 @@ body {
 .button:hover {
     background-color: black;
     color: white;
-}
-
-.container{
-    margin:250px 50px 50px 50px;
-    padding: 50px 30px 100px 30px;
 }
 

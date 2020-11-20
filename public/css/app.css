@@ -2,8 +2,8 @@
 
 .arrow_container{
   position:absolute;
-  height: 140px;
-  width: 140px;
+  height: 100px;
+  width: 100px;
   text-align: center
 }
 
@@ -507,6 +507,15 @@ body {
   right: 3%;
   position: absolute;
 }
+#sky {
+  transform: rotate(180deg);
+  position: absolute;
+  width: 130%;
+  left: -10%;
+  top: -18%;
+  height: 70%;
+}
+
 .scene {
   height: 100vh;
 }
@@ -571,6 +580,39 @@ body {
   height: 100%;
   left: -30%;
   bottom: 10%;
+}
+.layer-1-waterwell {
+  position: relative;
+}
+
+.layer-2-waterwell {
+  position: relative;
+  height: 100%;
+  width: 120%;
+}
+
+.layer-3-waterwell {
+  position: relative;
+  height: 100%;
+  width: 30vw;
+  bottom: 5vw;
+}
+
+.layer-nav {
+  height: 100%;
+  width: 100vw;
+}
+
+.background-waterwell-2 {
+  background: url(/images/village/layer-2-waterwell.png) no-repeat 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  position: absolute;
+  width: 100%;
+  bottom: -2%;
+  height: 80%;
+  left: -10%;
 }
 * {
   box-sizing: border-box;
@@ -664,18 +706,25 @@ body {
 .backbtn:hover {
   border: 1px solid rgba(255,255,255,.75);
 }
-body {
-  /*background-image: '../../../../../';*/
-  background-image: url("/images/cloudgif.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow:hidden;
+/*body {
+    !*background-image: '../../../../../';*!
+    background-image: url("/images/cloudgif.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow:hidden;
+}*/
+
+#transition {
+  width: 100vw;
+  height: 100vh;
 }
 
 .vlak{
+  margin-top: 40vh;
   background-color:rgba(242, 242, 228, 0.4);
   border-radius: 25px;
+  padding: 100px 40px;
 }
 
 .text-intro{
@@ -708,11 +757,6 @@ body {
 .button:hover {
   background-color: black;
   color: white;
-}
-
-.container{
-  margin:250px 50px 50px 50px;
-  padding: 50px 30px 100px 30px;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

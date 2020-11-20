@@ -24,6 +24,7 @@
 
         /*village*/
         @import 'layouts/scenes/village/index.css';
+        @import 'layouts/scenes/village/waterwell.css';
 
     /*video*/
     @import 'layouts/partials/video.css';

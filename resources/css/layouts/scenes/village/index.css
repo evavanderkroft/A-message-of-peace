@@ -1,3 +1,12 @@
+#sky {
+    transform: rotate(180deg);
+    position: absolute;
+    width: 130%;
+    left: -10%;
+    top: -18%;
+    height: 70%;
+}
+
 .scene {
     height: 100vh;
 }
@@ -19,7 +28,6 @@
     width: 30vw;
     bottom: 5vw;
 }
-
 .layer-nav {
     height: 100%;
     width: 100vw;

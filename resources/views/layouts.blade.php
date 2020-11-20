@@ -69,6 +69,8 @@
 
     @yield('content')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.clouds.min.js"></script>
     <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
     <livewire:scripts>
     </body>

@@ -19341,12 +19341,29 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+VANTA.CLOUDS({
+  el: '#transition',
+  // element selector string or DOM object reference
+  color: 0x000000,
+  shininess: 50,
+  waveSpeed: 1.5,
+  speed: 0.40
+});
+VANTA.CLOUDS({
+  el: '#sky',
+  // element selector string or DOM object reference
+  color: 0x000000,
+  shininess: 50,
+  waveSpeed: 1.5,
+  speed: 0.20
+});
 
-__webpack_require__(/*! ./popup */ "./resources/js/popup.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
+
+__webpack_require__(/*! ./popup */ "./resources/js/popup.js");
 
 /***/ }),
 
@@ -19432,8 +19449,8 @@ window.onclick = function (event) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\A-message-of-peace\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\A-message-of-peace\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\Rik Vermeulen Dev\PhpstormProjects\A-message-of-peace\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Rik Vermeulen Dev\PhpstormProjects\A-message-of-peace\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
