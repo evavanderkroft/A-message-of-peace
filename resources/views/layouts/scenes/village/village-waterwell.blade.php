@@ -18,25 +18,43 @@
                             <p>Go back to the Village</p>
                         </div>
                     </div>
-                    <div class="button-blue" onclick="showPopup()">
+                    {{--                    Onclick zorgt ervoor dat je de popup display block of none--}}
+                    <div class="infobutton" id="myBtn" style="top:35%; left:60%;" onclick="">
                     </div>
-                    <div id="popup" class="popup">
+{{--                    <button class="infobutton" id="myBtn"></button>--}}
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
 
-                        <h1></h1>
-                        <p>Ugandan citizens often do not have access to running water.
-                            More than 21 million people in Uganda still don’t have clean
-                            water, that’s about half of the population. The water that
-                            is available in Uganda like open waters and swamplands,
-                            are undrinkable. In villages it is very uncommon for people
-                            to have access to water in their own home. This results in
-                            them needing to get the water from water wells, far away
-                            from their hometown. This water is free but it takes a long
-                            time and a lot of effort for the people to get their water
-                            from a water well. Another way to get water is to buy it at
-                            a water vendor. These are people who sell water in bottles
-                            or in jerry cans, but you have to pay money for it, this
-                            makes this option too expensive for a lot of Ugandan citizens. </p>
+
+                                    <video id="video">
+                                        <source src="videos/1.mp4" type="video/mp4">
+                                        Your browser does not support HTML5 video.
+                                    </video>
+
+                                    <div class="content">
+                                        <button id="pauseBtn" class="myBtn" onclick="pauseVideo()">Play</button>
+                                        <button id="muteBtn" class="myBtn" onclick="muteVideo()">Unmute</button>
+                                    </div>
+                            <h1 class="text-title">Water Well problems </h1>
+                            <p>Ugandan citizens often do not have access to running water.
+                                More than 21 million people in Uganda still don’t have clean
+                                water, that’s about half of the population. The water that
+                                is available in Uganda like open waters and swamplands,
+                                are undrinkable. In villages it is very uncommon for people
+                                to have access to water in their own home. This results in
+                                them needing to get the water from water wells, far away
+                                from their hometown. This water is free but it takes a long
+                                time and a lot of effort for the people to get their water
+                                from a water well. Another way to get water is to buy it at
+                                a water vendor. These are people who sell water in bottles
+                                or in jerry cans, but you have to pay money for it, this
+                                makes this option too expensive for a lot of Ugandan citizens. </p>
+
+                        </div>
                     </div>
+
                 </li>
                 <li class="layer layer-2 z-0" data-depth="0.10" style="">
                     <img src="{{ asset('/images/sky.jpg') }}" alt="">
@@ -59,6 +77,54 @@
         window.onbeforeunload = function () {
             window.scrollTo(0, 0);
         }
+
+
+        let video = document.getElementById("video");
+        let buttontoggle = document.getElementById("button-toggle");
+        let pausebtn = document.getElementById("pauseBtn");
+        let mutebtn = document.getElementById("muteBtn");
+
+        let toggle = document.getElementById("video-toggle");
+
+        function showVideo() {
+            if (toggle.style.display === "none") {
+                toggle.style.display = "block";
+                buttontoggle.style.display = "none";
+            } else {
+                toggle.style.display = "none";
+                buttontoggle.style.display = "block";
+            }
+        }
+
+        function quitVideo() {
+
+            video.pause();
+            mutebtn.innerHTML = "Unmute";
+            toggle.style.display = "none";
+            buttontoggle.style.display = "block";
+            pausebtn.innerHTML = "Play";
+        }
+
+        function pauseVideo() {
+            if (video.paused) {
+                video.play();
+                pausebtn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                pausebtn.innerHTML = "Play";
+            }
+        }
+
+        function muteVideo() {
+            video.muted = !video.muted
+            if (video.muted) {
+                mutebtn.innerHTML = "Unmute";
+            } else {
+                mutebtn.innerHTML = "Mute";
+            }
+        }
+
+
     </script>
 
 @endsection

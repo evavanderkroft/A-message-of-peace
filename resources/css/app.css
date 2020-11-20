@@ -16,6 +16,7 @@
     /*partials*/
     @import 'layouts/partials/header.css';
     @import 'layouts/partials/footer.css';
+    @import 'layouts/partials/popup.css';
 
     /*scenes*/
     @import 'layouts/scenes/index.css';
