@@ -12,20 +12,11 @@
                 <br>
                 The purpose of A Message of Peace is both to raise awareness and to educate those who interact with the experience.
             </h2>
+
+            <a class="button" href="{{route('intro.transition')}}">start</a>
+
         </section>
 
-        <div class="container">
-            <a class="button" href="{{route('intro.transition')}}">start</a>
-            <div class="infobutton" style="top:65%; left:50%;"></div>
-            <div class="arrow_container" style="top:75%; left:50%;" >
-                <svg height="120" width="120" style="transform:rotate(90deg)">
-                    <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
-                </svg>
-                <div class="arrow_text">
-                    <p>City entrance</p>
-                </div>
-            </div>
-        </div>
 
     </main>
     {{--footer--}}
