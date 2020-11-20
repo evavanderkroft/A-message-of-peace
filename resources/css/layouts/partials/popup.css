@@ -22,6 +22,7 @@
     width: 80%;
     box-shadow: 0 0 20px #997D3B;
     border-radius: 15px;/* Could be more or less, depending on screen size */
+    margin: 10px;
     /*background-color: rgb(0,0,0); !* Fallback color *!*/
     /*background-color: rgba(0,0,0,0.4); !* Black w/ opacity *!*/
 }
