@@ -78,17 +78,16 @@
                         </div>
                     </div>
                     {{--                    Onclick zorgt ervoor dat je de popup display block of none--}}
-                    <div class="infobutton" id="myBtn" style="bottom:0vh; left:38vw;" onclick="">
+                    <div class="infobutton" id="myBtn" style="bottom:0vh; left:38vw;">
                     </div>
-                    {{--                    <button class="infobutton" id="myBtn"></button>--}}
                     <div id="myModal" class="modal">
                         <!-- Modal content -->
                         <div class="modal-content">
-                            <span class="close">&times;</span>
+                            <span class="close" onclick="">&times;</span>
 
 
                             <video id="video">
-                                <source src="videos/1.mp4" type="video/mp4">
+                                <source src="videos/2.mp4" type="video/mp4">
                                 Your browser does not support HTML5 video.
                             </video>
 

@@ -35,7 +35,7 @@
 
                     </div>
                 </li>
-                <li class="layer layer-3 z-20"  data-depth="0.60" data-depth-y="0.30" style="height:48%">
+                <li class="layer layer-3 z-20"  data-depth="0.60" data-depth-y="0.30" style="height:80%">
                     <div class="background-layer-3">
                     </div>
                 </li>
