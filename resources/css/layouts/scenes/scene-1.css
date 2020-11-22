@@ -1,15 +1,15 @@
 
 
-.scene1-layer-1 {
+.layer-1-city {
     position: relative;
     height: 1200px;
 }
 
-.scene1-layer-2 {
+.layer-2-city {
     height: 400px;
 }
 
-.scene1-layer-3 {
+.layer-3-city {
     width: 30%;
     right: 20% !important;
     left: unset !important;
@@ -18,7 +18,7 @@
     top: unset !important;
 }
 
-.scene1-background-layer-1 {
+.background-city-2 {
     background: url(/images/centrum.png) no-repeat 50% 100%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -32,31 +32,18 @@
     height: 100%;
 }
 
-.scene1-background-layer-2 {
-    background: url(/images/sky.jpg) no-repeat 50% 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 110% auto;
-    /*background-size: cover;*/
-    position: absolute;
-    width: 110%;
-    left: -10%;
-    top: -5%;
-    height: 100%;
-}
-
-/*.scene1-background-layer-3 {
+.scene1-background-layer-3 {
     background: url(/images/2men.png) no-repeat 50% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
-    !*background-size: cover;*!
+    background-size: cover;
     position: absolute;
     width: 100%;
-    !*left: -10%;
-    top: -5%;*!
+    left: -10%;
+    top: -5%;
     height: 100%;
-}*/
+}
 
 .scene1-arrow-left {
     position: absolute;
@@ -69,7 +56,7 @@
     transform: translate3d(0,-50%,0) rotate(200deg);
 }
 
-.scene1-arrow-right{
+/*.scene1-arrow-right{
     position: absolute;
     width: 3vmin;
     height: 3vmin;
@@ -98,4 +85,4 @@
     bottom: 55%;
     right: 3%;
     position: absolute;
-}
+}*/

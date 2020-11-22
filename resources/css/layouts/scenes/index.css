@@ -12,61 +12,47 @@ body {
     margin: 0;
 }
 
-.layer-1 {
+.layer-1-mainroad {
     position: relative;
     height: 1200px;
 }
 
-.layer-2 {
-    height: 400px;
+.layer-2-mainroad {
+    position: relative;
+    height: 130%;
+    width: 100vw;
 }
 
-.layer-3 {
+.layer-3-mainroad {
     width: 30%;
-    right: 20% !important;
+    right: 30vw !important;
     left: unset !important;
     height: 100%;
-    bottom: 10vw;
+    bottom: -25vh;
     top: unset !important;
 }
 
-.background-layer-1 {
+.background-mainroad-2 {
     background: url(/images/city.png) no-repeat 50% 100%;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
-    bottom: 30vh;
     /*background-size: cover;*/
     position: absolute;
-    width: 150%;
+    width: 120%;
     left: -10%;
+    bottom: 20vh;
     /*top: -5%;*/
     height: 100%;
 }
 
-.background-layer-2 {
-    background: url(/images/sky.jpg) no-repeat 50% 100%;
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 110% auto;
-    /*background-size: cover;*/
-    position: absolute;
-    width: 150%;
-    left: -10%;
-    top: -5%;
-    height: 100%;
-}
-
-.background-layer-3 {
+.background-mainroad-3 {
     background: url(/images/2men.png) no-repeat 50% 100%;
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% auto;
-    /*background-size: cover;*/
     position: absolute;
     width: 100%;
-    /*left: -10%;
-    top: -5%;*/
     height: 100%;
 }
 

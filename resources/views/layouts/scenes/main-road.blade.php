@@ -1,15 +1,25 @@
 @extends('layouts')
 
 @section('content')
-    <main class="index overflow-hidden  m-0 ">
+    <main class="index overflow-hidden m-0 ">
         @include ('layouts.partials.header')
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
-                <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
-                    <div class="background-layer-1">
+                <li class="layer layer-1-mainroad z-0" data-depth="0.90" data-depth-y="0.20" style="">
+                    <div class="background-mainroad-1" id="sky">
                     </div>
-                    <div class="arrow_container" style="top:35%; left:10%;" >
-                        <svg height="120" width="120" style="transform:rotate(280deg)">
+                </li>
+                <li class="layer layer-2-mainroad z-10" data-depth="0.40" style="">
+                    <div class="background-mainroad-2">
+                    </div>
+                </li>
+                <li class="layer layer-3-mainroad z-20"  data-depth="0.30" >
+                    <div class="background-mainroad-3">
+                    </div>
+                </li>
+                <li class="layer layer-nav z-40"  data-depth="0.10">
+                    <div class="arrow_container" style="top:50vh; left:15%;" >
+                        <svg viewBox="0 0 120 120" height="60px" width="60px" style="transform:rotate(280deg)">
                             <a href="{{ route('city-entrance') }}" >
                                 <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
                             </a>
@@ -18,8 +28,8 @@
                             <p>Go to the City</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:35%; right:10%;" >
-                        <svg height="120" width="120" style="transform:rotate(80deg)">
+                    <div class="arrow_container" style="top:50vh; right:15%;" >
+                        <svg viewBox="0 0 120 120" height="60px" width="60px" style="transform:rotate(80deg)">
                             <a href="{{ route('village-entrance') }}" >
                                 <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
                             </a>
@@ -29,16 +39,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="layer layer-2 z-0" data-depth="0.10" style="">
-                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
-                    <div class="background-layer-2">
 
-                    </div>
-                </li>
-                <li class="layer layer-3 z-20"  data-depth="0.60" data-depth-y="0.30" style="height:80%">
-                    <div class="background-layer-3">
-                    </div>
-                </li>
             </div>
         </section>
     </main>

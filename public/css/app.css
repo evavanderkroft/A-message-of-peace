@@ -264,61 +264,47 @@ body {
   margin: 0;
 }
 
-.layer-1 {
+.layer-1-mainroad {
   position: relative;
   height: 1200px;
 }
 
-.layer-2 {
-  height: 400px;
+.layer-2-mainroad {
+  position: relative;
+  height: 130%;
+  width: 100vw;
 }
 
-.layer-3 {
+.layer-3-mainroad {
   width: 30%;
-  right: 20% !important;
+  right: 30vw !important;
   left: unset !important;
   height: 100%;
-  bottom: 10vw;
+  bottom: -25vh;
   top: unset !important;
 }
 
-.background-layer-1 {
+.background-mainroad-2 {
   background: url(/images/city.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
-  bottom: 30vh;
   /*background-size: cover;*/
   position: absolute;
-  width: 150%;
+  width: 120%;
   left: -10%;
+  bottom: 20vh;
   /*top: -5%;*/
   height: 100%;
 }
 
-.background-layer-2 {
-  background: url(/images/sky.jpg) no-repeat 50% 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 110% auto;
-  /*background-size: cover;*/
-  position: absolute;
-  width: 150%;
-  left: -10%;
-  top: -5%;
-  height: 100%;
-}
-
-.background-layer-3 {
+.background-mainroad-3 {
   background: url(/images/2men.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100% auto;
-  /*background-size: cover;*/
   position: absolute;
   width: 100%;
-  /*left: -10%;
-    top: -5%;*/
   height: 100%;
 }
 
@@ -408,16 +394,16 @@ body {
   background-color: yellow; /* Dit moet naar een goudkleur */
   position: absolute;
 }
-.scene1-layer-1 {
+.layer-1-city {
   position: relative;
   height: 1200px;
 }
 
-.scene1-layer-2 {
+.layer-2-city {
   height: 400px;
 }
 
-.scene1-layer-3 {
+.layer-3-city {
   width: 30%;
   right: 20% !important;
   left: unset !important;
@@ -426,7 +412,7 @@ body {
   top: unset !important;
 }
 
-.scene1-background-layer-1 {
+.background-city-2 {
   background: url(/images/centrum.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -440,31 +426,18 @@ body {
   height: 100%;
 }
 
-.scene1-background-layer-2 {
-  background: url(/images/sky.jpg) no-repeat 50% 100%;
+.scene1-background-layer-3 {
+  background: url(/images/2men.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 110% auto;
-  /*background-size: cover;*/
+  background-position: center bottom;
+  background-size: 100% auto;
+  background-size: cover;
   position: absolute;
-  width: 110%;
+  width: 100%;
   left: -10%;
   top: -5%;
   height: 100%;
 }
-
-/*.scene1-background-layer-3 {
-    background: url(/images/2men.png) no-repeat 50% 100%;
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 100% auto;
-    !*background-size: cover;*!
-    position: absolute;
-    width: 100%;
-    !*left: -10%;
-    top: -5%;*!
-    height: 100%;
-}*/
 
 .scene1-arrow-left {
   position: absolute;
@@ -477,36 +450,36 @@ body {
   transform: translate3d(0,-50%,0) rotate(200deg);
 }
 
-.scene1-arrow-right{
-  position: absolute;
-  width: 3vmin;
-  height: 3vmin;
-  background: transparent;
-  border-top: 1vmin solid #5ecb5e;
-  border-right: 1vmin solid #5ecb5e;
-  transition: all 200ms ease;
-  transform: translate3d(0,-50%,0) rotate(270deg);
+/*.scene1-arrow-right{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(270deg);
 }
 
 .scene1-button-right span, .scene1-button-left span {
-  color: black;
-  background-color: #fff;
-  padding: 10px;
-  margin: 40px;
-  border-radius: 5px;
+    color: black;
+    background-color: #fff;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5px;
 }
 
 .scene1-button-left {
-  bottom: 50%;
-  left: 15%;
-  position: absolute;
+    bottom: 50%;
+    left: 15%;
+    position: absolute;
 }
 
 .scene1-button-right {
-  bottom: 55%;
-  right: 3%;
-  position: absolute;
-}
+    bottom: 55%;
+    right: 3%;
+    position: absolute;
+}*/
 #sky {
   transform: rotate(180deg);
   position: absolute;
