@@ -397,7 +397,8 @@ body {
 }
 
 .layer-2-city {
-  height: 400px;
+  width: 100vw;
+  height: 140%;
 }
 
 .layer-3-city {
@@ -417,7 +418,7 @@ body {
   bottom: 30vh;
   /*background-size: cover;*/
   position: absolute;
-  width: 130%;
+  width: 120%;
   left: -10%;
   /*top: -5%;*/
   height: 100%;
