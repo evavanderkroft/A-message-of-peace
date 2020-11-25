@@ -359,12 +359,8 @@ body {
 }
 
 .layer-3-mainroad {
-  width: 30%;
-  right: 30vw !important;
-  left: unset !important;
+  width: 100vw;
   height: 100%;
-  bottom: -25vh;
-  top: unset !important;
 }
 
 .background-mainroad-2 {
@@ -376,8 +372,7 @@ body {
   position: absolute;
   width: 120%;
   left: -10%;
-  bottom: 20vh;
-  /*top: -5%;*/
+  top: -13%;
   height: 100%;
 }
 
@@ -387,8 +382,10 @@ body {
   background-position: center bottom;
   background-size: 100% auto;
   position: absolute;
-  width: 100%;
+  width: 30%;
   height: 100%;
+  right: 30vw !important;
+  bottom: -25vh;
 }
 
 .button-left {
@@ -483,7 +480,8 @@ body {
 }
 
 .layer-2-city {
-  height: 400px;
+  width: 100vw;
+  height: 140%;
 }
 
 .layer-3-city {
@@ -503,7 +501,7 @@ body {
   bottom: 30vh;
   /*background-size: cover;*/
   position: absolute;
-  width: 130%;
+  width: 120%;
   left: -10%;
   /*top: -5%;*/
   height: 100%;
