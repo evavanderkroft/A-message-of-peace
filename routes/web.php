@@ -28,6 +28,8 @@ Route::get('/copyrights', function () {
     return view('layouts.menu-items.copyrights');})->name('copyrights');
 Route::get('/policy', function () {
     return view('layouts.menu-items.policy');})->name('policy');
+Route::get('/map', function () {
+    return view('layouts.menu-items.map');})->name('map');
 
 // City Scenes
 Route::get('/city-entrance', function () {
