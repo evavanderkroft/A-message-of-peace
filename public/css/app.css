@@ -1,15 +1,34 @@
 /* arrows */
 
 .arrow_container{
+  width:120px; height:120px;
   position:absolute;
-  height: 100px;
-  width: 100px;
   text-align: center
 }
 
-.arrow{
+svg{
+  position:relative;
+  left:30%;
+}
+
+.filter{
+  filter: drop-shadow(0px 0px 4px black);
+}
+
+.test{
+  -webkit-animation-name: arrow_small;
+          animation-name: arrow_small;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.test .arrow{
+  position:relative;
+  left:10px; bottom:10px;
   stroke:#FFE555;
-  stroke-width:4px;
+  stroke-width:7px;
   -webkit-animation-name: arrow_empty;
           animation-name: arrow_empty;
   -webkit-animation-duration: .4s;
@@ -18,7 +37,17 @@
           animation-fill-mode: forwards;
 }
 
-.arrow:hover{
+.test:hover{
+  transform: scale(1.2);
+  -webkit-animation-name: arrow_big;
+          animation-name: arrow_big;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.test:hover .arrow{
   -webkit-animation-name: arrow_fill;
           animation-name: arrow_fill;
   -webkit-animation-duration: .4s;
@@ -27,51 +56,83 @@
           animation-fill-mode: forwards;
 }
 
-@-webkit-keyframes arrow_empty {
+@-webkit-keyframes arrow_big {
   from{
-    fill:#FFE555;
+    transform: scale(1);
+  }
+
+  to{
+    transform: scale(1.2);
+  }
+}
+
+@keyframes arrow_big {
+  from{
+    transform: scale(1);
+  }
+
+  to{
+    transform: scale(1.2);
+  }
+}
+
+@-webkit-keyframes arrow_small {
+  from{
     transform: scale(1.2);
   }
 
   to{
-    fill:transparent;
     transform: scale(1);
+  }
+}
+
+@keyframes arrow_small {
+  from{
+    transform: scale(1.2);
+  }
+
+  to{
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes arrow_empty {
+  from{
+    fill:#FFE555;
+  }
+
+  to{
+    fill:transparent;
   }
 }
 
 @keyframes arrow_empty {
   from{
     fill:#FFE555;
-    transform: scale(1.2);
   }
 
   to{
     fill:transparent;
-    transform: scale(1);
   }
 }
 
 @-webkit-keyframes arrow_fill {
   from{
     fill:transparent;
-    transform: scale(1);
   }
 
   to{
     fill:#FFE555;
-    transform: scale(1.2);
   }
 }
 
 @keyframes arrow_fill {
   from{
     fill:transparent;
-    transform: scale(1);
   }
 
   to{
     fill:#FFE555;
-    transform: scale(1.2);
   }
 }
 
@@ -112,7 +173,7 @@
   }
 }
 
-.arrow_container:hover .arrow_text {
+svg:hover ~.arrow_text {
   display: block;
 }
 
