@@ -9,9 +9,10 @@
                     <div class="background-layer-1">
                     </div>
                     <div class="arrow_container" style="top:50%; left:45%;" >
-                        <svg height="120" width="120" style="transform:rotate(180deg)">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-entrance') }}" >
-                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
+                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"
+                                         style="transform: rotate(80deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">

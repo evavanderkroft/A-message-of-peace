@@ -68,9 +68,10 @@
                 </li>
                 <li class="layer layer-nav z-40" data-depth="0.60" data-depth-y="0.10">
                     <div class="arrow_container" style="bottom:20vh; left:7vw;" >
-                        <svg viewBox="0 0 120 120" height="60px" width="60px" style="transform:rotate(270deg)">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('village-entrance') }}" >
-                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
+                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"
+                                         style="transform:rotate(270deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
