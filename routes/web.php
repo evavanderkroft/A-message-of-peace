@@ -19,6 +19,18 @@ Route::get('/', function () {
 
 /*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
 
+//menu-items
+Route::get('/about', function () {
+    return view('layouts.menu-items.about');})->name('about');
+Route::get('/contact', function () {
+    return view('layouts.menu-items.contact');})->name('contact');
+Route::get('/copyrights', function () {
+    return view('layouts.menu-items.copyrights');})->name('copyrights');
+Route::get('/policy', function () {
+    return view('layouts.menu-items.policy');})->name('policy');
+Route::get('/map', function () {
+    return view('layouts.menu-items.map');})->name('map');
+
 // City Scenes
 Route::get('/city-entrance', function () {
     return view('layouts.scenes.city.city-entrance');})->name('city-entrance');

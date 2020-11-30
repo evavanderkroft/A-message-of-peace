@@ -22,3 +22,4 @@ var parallaxInstance = new Parallax(scene);
 
 
 require('./popup');
+require('./menu');
