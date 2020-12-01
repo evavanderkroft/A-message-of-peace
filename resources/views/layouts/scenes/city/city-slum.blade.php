@@ -3,87 +3,38 @@
 @section('content')
     <main class="index">
         @include ('layouts.partials.header')
-        <section class="container mx-auto px-4 pt-16">
-            <h1>City Entrance</h1>
-        </section>
-        <div class="image">
-            <div id="video-toggle" style="display: none">
-
-                <video id="video" poster autoplay loop>
-                    <source src="videos/1.mp4" type="video/mp4">
-                    Your browser does not support HTML5 video.
-                </video>
-
-                <div class="content">
-                    <h1>At the Market</h1><br>
-                    <button id="pauseBtn" class="myBtn" onclick="pauseVideo()">Play</button>
-                    <button id="muteBtn" class="myBtn" onclick="muteVideo()">Unmute</button>
-                    <button id="showVideoBtn" class="myBtn" onclick="quitVideo()">X</button>
-                </div>
-
-            </div>
-            <div id="button-toggle" style="display: block">
-                <button id="showVideoBtn" style="display: block" class="buttoncircle" onclick="showVideo()"></button>
-                <div class="arrow_container" style="top:70%; left:45%;" >
-                    <svg height="120" width="120" style="transform:rotate(180deg)">
-                        <a href="{{ route('city-entrance') }}" >
-                            <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
-                        </a>
-                    </svg>
-                    <div class="arrow_text">
-                        <p>Go back to the City</p>
+        <section class="">
+            <div class="scene pointer-events-auto" id="scene">
+                <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
+                    <div class="background-layer-1">
                     </div>
-                </div>
+                </li>
+                <li class="layer layer-2 z-0" data-depth="0.10" style="">
+                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
+                    <div class="background-layer-2">
+
+                    </div>
+                </li>
+                <li class="layer layer-nav z-40"  data-depth="0.10">
+                    <div class="box-title z-40">
+                        <p class="subtext">You are at the:</p>
+                        <h1 class="title">slum</h1>
+                    </div>
+                    <div class="arrow_container" style="top:70%; left:45%;" >
+                        <svg height="120" width="120" style="transform:rotate(180deg)">
+                            <a href="{{ route('city-entrance') }}" >
+                                <polygon class="arrow" points=" 45,5 85,95 45,75 5,95"/>
+                            </a>
+                        </svg>
+                        <div class="arrow_text">
+                            <p>Go back to the City</p>
+                        </div>
+                    </div>
+                </li>
             </div>
-        </div>
+        </section>
     </main>
     {{--footer--}}
-    <script>
-        let video = document.getElementById("video");
-        let buttontoggle = document.getElementById("button-toggle");
-        let pausebtn = document.getElementById("pauseBtn");
-        let mutebtn = document.getElementById("muteBtn");
-
-        let toggle = document.getElementById("video-toggle");
-
-        function showVideo() {
-            if (toggle.style.display === "none") {
-                toggle.style.display = "block";
-                buttontoggle.style.display = "none";
-            } else {
-                toggle.style.display = "none";
-                buttontoggle.style.display = "block";
-            }
-        }
-
-        function quitVideo() {
-
-            video.pause();
-            mutebtn.innerHTML = "Unmute";
-            toggle.style.display = "none";
-            buttontoggle.style.display = "block";
-            pausebtn.innerHTML = "Play";
-        }
-
-        function pauseVideo() {
-            if (video.paused) {
-                video.play();
-                pausebtn.innerHTML = "Pause";
-            } else {
-                video.pause();
-                pausebtn.innerHTML = "Play";
-            }
-        }
-
-        function muteVideo() {
-            video.muted = !video.muted
-            if (video.muted) {
-                mutebtn.innerHTML = "Unmute";
-            } else {
-                mutebtn.innerHTML = "Mute";
-            }
-        }
-    </script>
     @include ('layouts.partials.footer')
 
 @endsection

@@ -18,6 +18,10 @@
                     </div>
                 </li>
                 <li class="layer layer-nav z-40"  data-depth="0.10">
+                    <div class="box-title z-40">
+                        <p class="subtext">You are at the:</p>
+                        <h1 class="title">main road</h1>
+                    </div>
                     <div class="arrow_container" style="top:50vh; left:15%;" >
                         <svg viewBox="0 0 120 120" height="60px" width="60px" style="transform:rotate(280deg)">
                             <a href="{{ route('city-entrance') }}" >

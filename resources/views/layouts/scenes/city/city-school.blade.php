@@ -8,6 +8,17 @@
                 <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
                     <div class="background-layer-1">
                     </div>
+                </li>
+                <li class="layer layer-2 z-0" data-depth="0.10" style="">
+                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
+                    <div class="background-layer-2">
+                    </div>
+                </li>
+                <li class="layer layer-nav z-40"  data-depth="0.10">
+                    <div class="box-title z-40">
+                        <p class="subtext">You are at the:</p>
+                        <h1 class="title">school</h1>
+                    </div>
                     <div class="arrow_container" style="top:50%; left:45%;" >
                         <svg height="120" width="120" style="transform:rotate(180deg)">
                             <a href="{{ route('city-entrance') }}" >
@@ -17,12 +28,6 @@
                         <div class="arrow_text">
                             <p>Go back to the City</p>
                         </div>
-                    </div>
-                </li>
-                <li class="layer layer-2 z-0" data-depth="0.10" style="">
-                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
-                    <div class="background-layer-2">
-
                     </div>
                 </li>
             </div>

@@ -199,7 +199,32 @@
     transform: scale(1);
   }
 }
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Major Mono Display', regular, monospace;
+  text-align: center;
+}
 
+.box-title{
+  position: relative;
+  margin: auto;
+  width: 20%;
+  border: 5px solid rgba(242, 242, 228, 0.4);
+  margin-top: 1vh;
+  background-color:rgba(242, 242, 228, 0.4);
+  border-radius: 25px;
+  padding: 1px 1px;
+}
+
+.subtext {
+  font-size: 6px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
 /* The Modal (background) */
 
 .modal {
