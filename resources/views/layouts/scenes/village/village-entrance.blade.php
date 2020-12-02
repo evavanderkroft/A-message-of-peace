@@ -36,9 +36,10 @@
                         </div>
                     </div>
                     <div class="arrow_container" style="top:40vh; left:40vw;" >
-                        <svg viewBox="0 0 120 120" height="60px" width="60px" style="transform:rotate(10deg)">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('village-farm') }}" >
-                                <polygon  class="arrow" points=" 45,5 85,95 45,75 5,95" />
+                                <polygon class="arrow" points="55,15 95,105 55,85 15,105"
+                                         style="transform:rotate(10deg); transform-origin: 50% 50%;" />
                             </a>
                         </svg>
                         <div class="arrow_text">
@@ -46,9 +47,10 @@
                         </div>
                     </div>
                     <div class="arrow_container" style="top:20vh; left:50vw;" >
-                        <svg viewBox="0 0 120 120" height="60px" width="60px" style="transform:rotate(10deg)">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('village-school') }}" >
-                                <polygon  class="arrow" points=" 45,5 85,95 45,75 5,95" />
+                                <polygon class="arrow" points="55,15 95,105 55,85 15,105"
+                                         style="transform:rotate(10deg); transform-origin: 50% 50%;" />
                             </a>
                         </svg>
                         <div class="arrow_text">
