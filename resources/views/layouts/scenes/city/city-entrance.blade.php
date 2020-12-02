@@ -37,18 +37,18 @@
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-rich') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(300deg); transform-origin: 50% 50%;"/>
+                                         style="transform: rotate(280deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
                             <p>Go to the Rich</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:50vh; right:35vw;" >
+                    <div class="arrow_container" style="top:50vh; right:25vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-school') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(40deg); transform-origin: 50% 50%;"/>
+                                         style="transform: rotate(0deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
