@@ -32,4 +32,5 @@
     /*intro*/
     @import 'layouts/intro.css';
 
-
+    /*menu*/
+    @import 'layouts/menu-items/about.css';

@@ -5,9 +5,8 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a class="sidenav_item" href="{{route('intro')}}">Homepage</a>
-            <a class="sidenav_item" href="{{route('about')}}">About</a>
             <a class="sidenav_item" href="#">Map</a>
-            <a class="sidenav_item" href="{{route('contact')}}">Contact</a>
+            <a class="sidenav_item" href="{{route('about')}}">About</a>
             <div class="sidenav_items_bottom">
                 <a class="sidenav_item_bottom" href="{{route('policy')}}">Policy</a>
                 <a class="sidenav_item_bottom" href="{{route('copyrights')}}">Copyrights</a>
