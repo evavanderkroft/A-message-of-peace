@@ -9,6 +9,7 @@ body {
 }
 
 #video {
+    object-fit: fill;
     position: relative;
     right: 0;
     bottom: 0;

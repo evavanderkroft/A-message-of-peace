@@ -765,6 +765,8 @@ body {
 }
 
 #video {
+  -o-object-fit: fill;
+     object-fit: fill;
   position: relative;
   right: 0;
   bottom: 0;
