@@ -35,22 +35,22 @@
                             <p>Go to the Waterwell</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:40vh; left:40vw;" >
+                    <div class="arrow_container" style="top:55vh; left:20vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('village-farm') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform:rotate(10deg); transform-origin: 50% 50%;" />
+                                         style="transform:rotate(280deg); transform-origin: 50% 50%;" />
                             </a>
                         </svg>
                         <div class="arrow_text">
                             <p>Go to the Farm</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:20vh; left:50vw;" >
+                    <div class="arrow_container" style="top:55vh; left:90vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('village-school') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform:rotate(10deg); transform-origin: 50% 50%;" />
+                                         style="transform:rotate(0deg); transform-origin: 50% 50%;" />
                             </a>
                         </svg>
                         <div class="arrow_text">

@@ -22,33 +22,33 @@
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">city</h1>
                     </div>
-                    <div class="arrow_container" style="top:20vh; right:50vw;" >
+                    <div class="arrow_container" style="top:50vh; right:10vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-slum') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(10deg); transform-origin: 50% 50%;"/>
+                                         style="transform: rotate(80deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
                             <p>Go to the Slum</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:50vh; left:20vw;" >
+                    <div class="arrow_container" style="top:50vh; left:10vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-rich') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(10deg); transform-origin: 50% 50%;"/>
+                                         style="transform: rotate(280deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
                             <p>Go to the Rich</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:50vh; right:20vw;" >
+                    <div class="arrow_container" style="top:50vh; right:25vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-school') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(10deg); transform-origin: 50% 50%;"/>
+                                         style="transform: rotate(0deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
