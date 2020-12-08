@@ -35,14 +35,14 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span class="close" onclick="quitVideo()">&times;</span>
-                            <video id="video">
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
                                 <source src="videos/2.mp4" type="video/mp4">
                                 Your browser does not support HTML5 video.
                             </video>
-                            <div class="content">
-                                <button id="pauseBtn" class="myBtn" onclick="pauseVideo()">Play</button>
-                                <button id="muteBtn" class="myBtn" onclick="muteVideo()">Unmute</button>
-                            </div>
+{{--                            <div class="content">--}}
+{{--                                <button id="pauseBtn" class="myBtn" onclick="pauseVideo()">Play</button>--}}
+{{--                                <button id="muteBtn" class="myBtn" onclick="muteVideo()">Unmute</button>--}}
+{{--                            </div>--}}
                             <h1 class="text-title">Water Well problems </h1>
                             <p>Ugandan citizens often do not have access to running water.
                                 More than 21 million people in Uganda still don’t have clean
