@@ -31,11 +31,42 @@
                     </div>
                     <div class="infobutton" id="myBtn" style="bottom:0vh; left:38vw;">
                     </div>
+{{--                    <div id="myModal1" class="modal">--}}
+{{--                        <!-- Modal content -->--}}
+{{--                        <div class="modal-content">--}}
+{{--                            <span class="close" onclick="quitVideo()">&times;</span>--}}
+{{--                            <video class="video">--}}
+{{--                                <source src="videos/2.mp4" type="video/mp4">--}}
+{{--                                Your browser does not support HTML5 video.--}}
+{{--                            </video>--}}
+{{--                            <div class="content">--}}
+{{--                                <button id="pauseBtn" class="myBtn" onclick="pauseVideo()">Play</button>--}}
+{{--                                <button id="muteBtn" class="myBtn" onclick="muteVideo()">Unmute</button>--}}
+{{--                            </div>--}}
+{{--                            <h1 class="text-title">Water Well problems </h1>--}}
+{{--                            <p>Ugandan citizens often do not have access to running water.--}}
+{{--                                More than 21 million people in Uganda still don’t have clean--}}
+{{--                                water, that’s about half of the population. The water that--}}
+{{--                                is available in Uganda like open waters and swamplands,--}}
+{{--                                are undrinkable. In villages it is very uncommon for people--}}
+{{--                                to have access to water in their own home. This results in--}}
+{{--                                them needing to get the water from water wells, far away--}}
+{{--                                from their hometown. This water is free but it takes a long--}}
+{{--                                time and a lot of effort for the people to get their water--}}
+{{--                                from a water well. Another way to get water is to buy it at--}}
+{{--                                a water vendor. These are people who sell water in bottles--}}
+{{--                                or in jerry cans, but you have to pay money for it, this--}}
+{{--                                makes this option too expensive for a lot of Ugandan citizens. </p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+                    <div class="infobutton" id="myBtn" style="bottom:0vh; left:70vw;">
+                    </div>
                     <div id="myModal" class="modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span class="close" onclick="quitVideo()">&times;</span>
-                            <video id="video">
+                            <video class="video">
                                 <source src="videos/2.mp4" type="video/mp4">
                                 Your browser does not support HTML5 video.
                             </video>
