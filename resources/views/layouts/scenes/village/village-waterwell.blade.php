@@ -14,21 +14,6 @@
                     </div>
                 </li>
                 <li class="layer layer-nav z-40" data-depth="0.60" data-depth-y="0.10">
-                    <div class="box-title z-40">
-                        <p class="subtext">You are at the:</p>
-                        <h1 class="title">water well</h1>
-                    </div>
-                    <div class="arrow_container" style="bottom:20vh; left:7vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
-                            <a href="{{ route('village-entrance') }}" >
-                                <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform:rotate(270deg); transform-origin: 50% 50%;"/>
-                            </a>
-                        </svg>
-                        <div class="arrow_text">
-                            <p>Go back to the Village</p>
-                        </div>
-                    </div>
                     <div class="infobutton" id="myBtn" style="bottom:0vh; left:38vw;">
                     </div>
                     <div id="myModal" class="modal">
@@ -62,6 +47,21 @@
                 </li>
             </div>
         </section>
+        <div class="box-title" style="bottom:100vh;">
+            <p class="subtext">You are at the:</p>
+            <h1 class="title">water well</h1>
+        </div>
+        <div class="arrow_container" style="bottom:20vh; left:7vw;" >
+            <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
+                <a href="{{ route('village-entrance') }}" >
+                    <polygon class="arrow" points="55,15 95,105 55,85 15,105"
+                             style="transform:rotate(270deg); transform-origin: 50% 50%;"/>
+                </a>
+            </svg>
+            <div class="arrow_text">
+                <p>Go back to the Village</p>
+            </div>
+        </div>
     </main>
     {{--footer--}}
     @include ('layouts.partials.footer')
