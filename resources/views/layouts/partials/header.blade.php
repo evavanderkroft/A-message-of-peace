@@ -1,4 +1,4 @@
-<header class="z-90">
+<header class="z-90" style="z-index: 2;">
     <nav class="menu">
         <body>
 
