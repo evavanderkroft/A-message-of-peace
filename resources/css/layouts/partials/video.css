@@ -8,13 +8,13 @@ body {
     font-size: 17px;
 }
 
-.video {
+#video {
+    object-fit: fill;
     position: relative;
     right: 0;
     bottom: 0;
     border-radius: 10px;
-    /*min-width: 100%;*/
-    /*min-height: 100%;*/
+    width: 100%;
 }
 
 .image {
@@ -38,57 +38,4 @@ body {
     color: #f1f1f1;
     /*width: 100%;*/
     padding: 20px;
-}
-
-.myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background:#Ffffff;
-    color: #000000;
-    cursor: pointer;
-}
-
-.myBtn:hover {
-    background: #ddd;
-    color: black;
-}
-
-.buttoncircle {
-    background-color: #fc6e91;
-    border: 5px solid rgba(255,255,255,.75);
-    color: white;
-    position: absolute;
-    transition: .5s ease;
-    top:30%;
-    left:20%;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    border-radius: 50%;
-}
-
-.buttoncircle:hover {
-    border: 1px solid rgba(255,255,255,.75);
-}
-
-.backbtn {
-    position: absolute;
-    transition: .5s ease;
-    top:85%;
-    left:50%;
-    text-align: center;
-    color: black;
-    background-color: #fff;
-    padding: 10px;
-    margin: 40px;
-    border-radius: 5px;
-}
-
-.backbtn:hover {
-    border: 1px solid rgba(255,255,255,.75);
 }
