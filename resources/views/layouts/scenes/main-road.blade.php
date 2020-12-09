@@ -17,37 +17,34 @@
                     <div class="background-mainroad-3">
                     </div>
                 </li>
-                <li class="layer layer-nav z-40"  data-depth="0.10">
-                    <div class="box-title z-40">
-                        <p class="subtext">You are at the:</p>
-                        <h1 class="title">main road</h1>
-                    </div>
-                    <div class="arrow_container" style="top:50vh; left:15%;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
-                            <a href="{{ route('city-entrance') }}" >
-                                <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(280deg); transform-origin: center; margin:10px;"/>
-                            </a>
-                        </svg>
-                        <div class="arrow_text">
-                            <p>Go to the City</p>
-                        </div>
-                    </div>
-                    <div class="arrow_container" style="top:50vh; right:15%;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
-                            <a href="{{ route('village-entrance') }}">
-                                <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(80deg); transform-origin: 50% 50%;"/>
-                            </a>
-                        </svg>
-                        <div class="arrow_text">
-                            <p>Go to the Village</p>
-                        </div>
-                    </div>
-                </li>
-
             </div>
         </section>
+        <div class="box-title z-40" style="bottom: 100vh;">
+            <p class="subtext">You are at the:</p>
+            <h1 class="title">main road</h1>
+        </div>
+        <div class="arrow_container" style="top:60vh; left:15%;" >
+            <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
+                <a href="{{ route('city-entrance') }}" >
+                    <polygon class="arrow" points="55,15 95,105 55,85 15,105"
+                             style="transform: rotate(280deg); transform-origin: center; margin:10px;"/>
+                </a>
+            </svg>
+            <div class="arrow_text">
+                <p>Go to the City</p>
+            </div>
+        </div>
+        <div class="arrow_container" style="top:60vh; right:15%;" >
+            <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
+                <a href="{{ route('village-entrance') }}">
+                    <polygon class="arrow" points="55,15 95,105 55,85 15,105"
+                             style="transform: rotate(80deg); transform-origin: 50% 50%;"/>
+                </a>
+            </svg>
+            <div class="arrow_text">
+                <p>Go to the Village</p>
+            </div>
+        </div>
     </main>
     {{--footer--}}
     @include ('layouts.partials.footer')
