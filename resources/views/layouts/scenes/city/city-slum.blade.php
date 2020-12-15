@@ -3,13 +3,17 @@
 @section('content')
     <main class="index">
         @include ('layouts.partials.header')
-        <section class="container mx-auto px-4 pt-16">
-            <h1>City Entrance</h1>
-        </section>
-        <div class="image">
-            <div id="video-toggle" style="display: none">
-
+        <section class="">
+            <div class="scene pointer-events-auto" id="scene">
+                <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
+                    <div class="background-layer-1">
                     </div>
+                </li>
+                <li class="layer layer-2 z-0" data-depth="0.10" style="">
+                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
+                    <div class="background-layer-2">
+                    </div>
+                </li>
                 </li>
                 <li class="layer layer-nav z-40"  data-depth="0.10">
                     <div class="box-title z-40">
