@@ -1,7 +1,6 @@
 <header class="z-90" style="z-index: 2;">
     <nav class="menu">
         <body>
-
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a class="sidenav_item" href="{{route('intro')}}">Homepage</a>

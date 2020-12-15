@@ -2,7 +2,6 @@
 
 @section('content')
     <main class="index overflow-hidden  m-0 ">
-        @include ('layouts.partials.header')
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
@@ -17,6 +16,9 @@
                 </li>
                 <li class="layer layer-nav z-40"  data-depth="0.10">
 
+                </li>
+                <li class="layer layer-4-mainroad z-40" data-depth="0"style="">
+                    @include ('layouts.partials.header')
                 </li>
             </div>
         </section>
