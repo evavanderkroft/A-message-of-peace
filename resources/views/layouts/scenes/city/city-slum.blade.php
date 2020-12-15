@@ -2,7 +2,6 @@
 
 @section('content')
     <main class="index">
-        @include ('layouts.partials.header')
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
@@ -15,8 +14,8 @@
                     </div>
                 </li>
                 </li>
-                <li class="layer layer-nav z-40"  data-depth="0.10">
-                    <div class="box-title z-40">
+                <li class="layer-content z-30" data-depth="0">
+                    <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">slum</h1>
                     </div>
@@ -75,6 +74,9 @@
                             </p>
                         </div>
                     </div>
+                </li>
+                <li class="layer z-50" data-depth="0" style="">
+                    @include ('layouts.partials.header')
                 </li>
             </div>
         </section>

@@ -2,7 +2,6 @@
 
 @section('content')
     <main class="index overflow-hidden m-0 ">
-        @include ('layouts.partials.header')
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1-waterwell z-10" data-depth="0.70" style="">
@@ -83,10 +82,12 @@
                         </div>
                     </div>
                 </li>
+                <li class="layer z-50" data-depth="0"style="">
+                    @include ('layouts.partials.header')
+                </li>
             </div>
         </section>
     </main>
-    footer
     @include ('layouts.partials.footer')
 
     <script type="text/javascript">
