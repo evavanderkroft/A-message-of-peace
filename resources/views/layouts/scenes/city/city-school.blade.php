@@ -30,6 +30,46 @@
                             <p>Go back to the City</p>
                         </div>
                     </div>
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    </div>
+                    <div id="popup-modal1"  class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">the school</h1>
+                            <p>There is quite a big difference between city schools
+                                and rural schools. The schools in these urban areas
+                                have a higher probability of marketing their schools
+                                and therefore receiving more students. It is often
+                                well centered in the city, which makes it more accessible for students.
+                                These schools are mostly privately owned, which makes
+                                it easy to run by the owner if any mistakes are made.
+                                This is because if these mistakes are made, the owner is
+                                messing with his or her own life or business savings.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    </div>
+                    <div id="popup-modal2" class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">the student</h1>
+                            <p>Not only are there more students going to school
+                                in the city, the students from city schools often
+                                seem to be the students passing exams. They are
+                                normally high performers
+                                because these regions offer better accommodations
+                                and more well paid and educated teachers who can easily
+                                meet the needs of the children. Students in city schools
+                                are often more well educated and see school as important.
+                            </p>
+                        </div>
+                    </div>
                 </li>
             </div>
         </section>

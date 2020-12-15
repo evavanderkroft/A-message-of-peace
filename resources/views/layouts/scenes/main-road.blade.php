@@ -44,6 +44,25 @@
                             <p>Go to the Village</p>
                         </div>
                     </div>
+
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:50vw;">
+                    </div>
+                    <div id="popup-modal1"  class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">the roads </h1>
+                            <p>Uganda’s current investment plan contains investing in
+                                the improvement of the roads and infrastructure. This
+                                would undoubtedly benefit travel
+                                and trade between cities and villages, as currently many
+                                roads are unsuited for traveling with vehicles or carts
+                                and transporting goods. But the cost for these improvements
+                                are put on the poor citizens in Uganda.
+                            </p>
+                        </div>
+                    </div>
                 </li>
 
             </div>

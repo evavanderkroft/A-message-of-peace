@@ -31,6 +31,33 @@
                             <p>Go back to the Village</p>
                         </div>
                     </div>
+
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    </div>
+                    <div id="popup-modal1"  class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">the farmers </h1>
+                            <p>There are many villages in Uganda, often reproducing coffee,
+                                tea, cotton, tobacco and cocoa. Besides that, many farmers
+                                also reproduce cassava, maize, fresh flowers, vanilla,
+                                asparagus and medicinal plants. About 70 percent of the
+                                workforce in Uganda are farmers of any kind. Also, this
+                                sector is dominated by smallholder farming. Besides crops,
+                                there are also a lot of farmers who own livestock. Because
+                                of diseases, drought and degraded grasslands, the size of
+                                herds have cut in size, causing higher levels of poverty
+                                and malnutrition. Agriculture contributes half of Uganda’s
+                                export earnings. Since most of the Ugandan
+                                citizens live in rural areas and practice farming, a development
+                                plan to raise agricultural incomes is currently in development.
+                                This eventually is trying to create more jobs, especially for
+                                women and for the youth.
+                            </p>
+                        </div>
+                    </div>
                 </li>
             </div>
         </section>

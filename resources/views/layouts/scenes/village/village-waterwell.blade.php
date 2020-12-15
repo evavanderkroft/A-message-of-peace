@@ -13,8 +13,8 @@
                     <div class="background-waterwell-2">
                     </div>
                 </li>
-                <li class="layer layer-nav z-40" data-depth="0.60" data-depth-y="0.10">
-                    <div class="box-title z-40">
+                <li class="layer-content z-30" data-depth="0">
+                    <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">water well</h1>
                     </div>
@@ -30,7 +30,7 @@
                         </div>
                     </div>
 
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:0vh; left:38vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:38vw;">
                     </div>
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
@@ -40,7 +40,7 @@
                                 <source src="videos/2.mp4" type="video/mp4">
                                 Your browser does not support HTML5 video.
                             </video>
-                            <h1 class="text-title">Water Well problems </h1>
+                            <h1 class="text-title">water well problems </h1>
                                 <p>Ugandan citizens often do not have access to running water.
                                     More than 21 million people in Uganda still don’t have clean
                                     water, that’s about half of the population. The water that
@@ -58,18 +58,14 @@
                         </div>
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:0vh; left:70vw;">
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:40vh; left:30vw;">
                     </div>
                     <div id="popup-modal2" class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
-                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
-                                <source src="videos/2.mp4" type="video/mp4">
-                                Your browser does not support HTML5 video.
-                            </video>
 
-                            <h1 class="text-title">Women's Job</h1>
+                            <h1 class="text-title">women's job</h1>
                                 <p>Women are often the ones in charge of taking
                                     care of the household and making sure that
                                     there is an availability to water at home.
@@ -85,7 +81,6 @@
                                     prevents these women from being able to have a
                                     paid job or do other services that can provide money.</p>
                         </div>
-
                     </div>
                 </li>
             </div>
@@ -103,59 +98,50 @@
             window.scrollTo(0, 0);
         }
 
-
-        let video = document.getElementById("video");
-        let buttontoggle = document.getElementById("button-toggle");
-        let pausebtn = document.getElementById("pauseBtn");
-        let mutebtn = document.getElementById("muteBtn");
-
-        let toggle = document.getElementById("video-toggle");
-
-
-
-        function quitVideo() {
-            video.pause();
-        }
-
-        // Get the modal
-        // var modal = document.getElementsByClassName("popup-modal");
-        var modal1 = document.getElementById("popup-modal1");
-        var modal2 = document.getElementById("popup-modal2");
-
-        // Get the button that opens the modal
-        var btn1 = document.getElementById("popup-button1");
-        var btn2 = document.getElementById("popup-button2");
-
-        // Get the <span> element that closes the modal
-        var span1 = document.getElementById("popup-close1")
-        var span2 = document.getElementById("popup-close2")
-
-        // When the user clicks on the button, open the modal
-        btn1.onclick = function() {
-            modal1.style.display = "block";
-        }
-
-        btn2.onclick = function() {
-            modal2.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span1.onclick = function() {
-            modal1.style.display = "none";
-        }
-        span2.onclick = function() {
-            modal2.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal1) {
-                modal1.style.display = "none";
-            }
-            if (event.target == modal2) {
-                modal2.style.display = "none";
-            }
-        }
+        // let video = document.getElementById("video");
+        //
+        // function quitVideo() {
+        //     video.pause();
+        // }
+        //
+        // // Get the modal
+        // var modal1 = document.getElementById("popup-modal1");
+        // var modal2 = document.getElementById("popup-modal2");
+        //
+        // // Get the button that opens the modal
+        // var btn1 = document.getElementById("popup-button1");
+        // var btn2 = document.getElementById("popup-button2");
+        //
+        // // Get the <span> element that closes the modal
+        // var span1 = document.getElementById("popup-close1")
+        // var span2 = document.getElementById("popup-close2")
+        //
+        // // When the user clicks on the button, open the modal
+        // btn1.onclick = function() {
+        //     modal1.style.display = "block";
+        // }
+        //
+        // btn2.onclick = function() {
+        //     modal2.style.display = "block";
+        // }
+        //
+        // // When the user clicks on <span> (x), close the modal
+        // span1.onclick = function() {
+        //     modal1.style.display = "none";
+        // }
+        // span2.onclick = function() {
+        //     modal2.style.display = "none";
+        // }
+        //
+        // // When the user clicks anywhere outside of the modal, close it
+        // window.onclick = function(event) {
+        //     if (event.target == modal1) {
+        //         modal1.style.display = "none";
+        //     }
+        //     if (event.target == modal2) {
+        //         modal2.style.display = "none";
+        //     }
+        // }
 
     </script>
 @endsection

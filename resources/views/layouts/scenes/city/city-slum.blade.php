@@ -31,6 +31,50 @@
                             <p>Go back to the City</p>
                         </div>
                     </div>
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    </div>
+                    <div id="popup-modal1"  class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">homeless people</h1>
+                            <p>In the bigger cities and towns, there is also a lot of
+                                poverty. Over 40% of the people in Uganda live with less
+                                than $1.90 a day. 62% of this amount of money is spent
+                                on food, to keep people alive. Although there is still
+                                a lot of poverty in Uganda, it is slowly decreasing
+                                in relation to a few years back. Uganda’s National Development
+                                Plan (NDP) aims to lift the country into middle-income status.
+                                Uganda’s current developments focusses trade, tourism and
+                                infrastructure development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    </div>
+                    <div id="popup-modal2" class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">homeless children</h1>
+                            <p>There are at least 15,000 homeless children between 7 and 17,
+                                and a lot of these are victims of child traffickers who steal
+                                them from their villages. These traffickers want the kids to
+                                beg people into giving money, which the kids then have to give
+                                to the traffickers. The homeless children in Uganda often
+                                experience violence, and physical and sexual abuse. This
+                                violence is mostly caused by the authorities, rather than
+                                others on the streets. Police use a lot of
+                                violence against these children because they think the children
+                                stole and begged for money. The children get threatened, beaten
+                                and often have to give their money so they won’t receive any
+                                further punishment.
+                            </p>
+                        </div>
+                    </div>
                 </li>
             </div>
         </section>

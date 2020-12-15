@@ -30,8 +30,46 @@
                             <p>Go back to the City</p>
                         </div>
                     </div>
-                </li>
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    </div>
+                    <div id="popup-modal1"  class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
 
+                            <h1 class="text-title">rich people</h1>
+                            <p>The bigger cities in Uganda are home to the more wealthy
+                                citizens. Their cities are a lot better developed and
+                                offer better homes and a more luxurious life in comparison to the villages. Banking options are also mainly available in urban areas, there are just about 5 million
+                                bank accounts for a population of just over 40 million.
+                                Public investment for bigger cities also favors the rich,
+                                such as construction of modern hospitals, something the
+                                poor could never make use of.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    </div>
+                    <div id="popup-modal2" class="popup-modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
+
+                            <h1 class="text-title">store</h1>
+                            <p>In bigger cities in Uganda there is a blend of two different
+                                shopping worlds. You have the traditional markets where people
+                                have shopped for hundreds of years and you have the new, modern
+                                shopping centers where you find everything from designer clothing
+                                to high-tech gadgets. This is mostly in the bigger towns and cities;
+                                in the smaller towns the rural markets still rule. These rural markets often
+                                sell crops made on their own land. There is a lot of competition
+                                between sellers, because for example neighbours sell the same crops.
+                                This causes a lack of trade and results in a weak economy in these rural areas.
+                            </p>
+                        </div>
+                    </div>
+                </li>
             </div>
         </section>
     </main>
