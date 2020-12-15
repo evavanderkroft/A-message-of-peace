@@ -17,6 +17,7 @@
     @import 'layouts/partials/header.css';
     @import 'layouts/partials/footer.css';
     @import 'layouts/partials/popup.css';
+@import 'layouts/partials/map.css';
 
     /*scenes*/
     @import 'layouts/scenes/index.css';
@@ -34,3 +35,4 @@
 
     /*menu*/
     @import 'layouts/menu-items/about.css';
+

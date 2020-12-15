@@ -4,7 +4,7 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a class="sidenav_item" href="{{route('intro')}}">Homepage</a>
-            <a class="sidenav_item" href="#">Map</a>
+            <a class="sidenav_item" href="{{route('map')}}">Map</a>
             <a class="sidenav_item" href="{{route('about')}}">About</a>
             <div class="sidenav_items_bottom">
                 <a class="sidenav_item_bottom" href="{{route('policy')}}">Policy</a>
@@ -14,8 +14,12 @@
 
         <span style="font-size:50px;cursor:pointer; margin-left:20px;" onclick="openNav()">&#9776;</span>
         </body>
+
+
     </nav>
-    <script>
+
+  <script>
+
         function openNav() {
             document.getElementById("mySidenav").style.width = "450px";
         }
