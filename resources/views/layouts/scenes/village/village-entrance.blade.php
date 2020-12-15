@@ -18,7 +18,7 @@
 
                     </div>
                 </li>
-                <li class="layer layer-nav z-40" data-depth="0.60" data-depth-y="0.10">
+                <li class="layer layer-content z-40" data-depth="0" data-depth-y="0.10">
                     <div class="box-title z-40">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">village</h1>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="layer layer-4-mainroad z-40" data-depth="0"style="">
+                <li class="layer layer-4-mainroad z-50" data-depth="0"style="">
                     @include ('layouts.partials.header')
                 </li>
             </div>
