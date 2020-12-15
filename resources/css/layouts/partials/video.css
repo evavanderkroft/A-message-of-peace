@@ -17,20 +17,6 @@ body {
     width: 100%;
 }
 
-.image {
-    background: url(/img/city_entrance.jpg) no-repeat ;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 .content {
     position: relative;
     bottom: 0;
