@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="layer-5" data-depth="0" style="">
+                <li class="layer z-50" data-depth="0"style="">
                     @include ('layouts.partials.header')
                 </li>
             </div>

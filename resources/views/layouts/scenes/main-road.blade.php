@@ -70,10 +70,7 @@
             </div>
         </section>
     </main>
-    {{--footer--}}
     @include ('layouts.partials.footer')
-
-
     <script type="text/javascript">
         var body = document.body;
 
