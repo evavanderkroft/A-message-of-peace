@@ -26,6 +26,11 @@
         /*village*/
         @import 'layouts/scenes/village/index.css';
         @import 'layouts/scenes/village/waterwell.css';
+        @import 'layouts/scenes/village/farm.css';
+        @import 'layouts/scenes/village/school.css';
+
+        /*city*/
+        @import 'layouts/scenes/city/slum.css';
 
     /*video*/
     @import 'layouts/partials/video.css';

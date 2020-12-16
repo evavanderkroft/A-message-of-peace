@@ -1155,6 +1155,103 @@ body {
   height: 80%;
   left: -10%;
 }
+.layer-1-farm {
+  position: relative;
+}
+
+.layer-2-farm {
+  position: relative;
+  height: 100%;
+  width: 120%;
+}
+
+/*.layer-3-waterwell {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+    bottom: 5vw;
+}
+.layer-nav {
+    height: 100%;
+    width: 100vw;
+}*/
+
+.background-farm-2 {
+  background: url(/images/village/farm.png) no-repeat 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  position: absolute;
+  width: 95%;
+  bottom: -15%;
+  height: 130%;
+  left: -5%;
+}
+.layer-1-school {
+  position: relative;
+}
+
+.layer-2-school {
+  position: relative;
+  height: 100%;
+  width: 120%;
+}
+
+/*.layer-3-waterwell {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+    bottom: 5vw;
+}
+.layer-nav {
+    height: 100%;
+    width: 100vw;
+}*/
+
+.background-school-2 {
+  background: url(/images/village/village-school.png) no-repeat 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  position: absolute;
+  width: 100%;
+  bottom: -10%;
+  height: 100%;
+  left: -5%;
+}
+.layer-1-slum {
+  position: relative;
+  height: 110%;
+}
+
+.layer-2-slum {
+  position: relative;
+  height: 100%;
+  width: 120%;
+}
+
+/*.layer-3-waterwell {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+    bottom: 5vw;
+}
+.layer-nav {
+    height: 100%;
+    width: 100vw;
+}*/
+
+.background-slum-2 {
+  background: url(/images/city/city-poor.png) no-repeat 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  height: 105%;
+  left: -5%;
+}
 * {
   box-sizing: border-box;
 }
@@ -22930,6 +23027,8 @@ video {
 /*scenes*/
 
 /*village*/
+
+/*city*/
 
 /*video*/
 

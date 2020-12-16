@@ -1,16 +1,15 @@
 @extends('layouts')
 
 @section('content')
-    <main class="index overflow-hidden  m-0 ">
+    <main class="index overflow-hidden m-0 ">
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
-                <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
-                    <div class="background-layer-1">
+                <li class="layer layer-1-school z-10" data-depth="0.70" style="">
+                    <div class="background-school-1" id="sky">
                     </div>
                 </li>
-                <li class="layer layer-2 z-0" data-depth="0.10" style="">
-                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
-                    <div class="background-layer-2">
+                <li class="layer layer-2-school z-20" data-depth="0.60" data-depth-y="0.10" style="">
+                    <div class="background-school-2">
                     </div>
                 </li>
                 <li class="layer-content z-30"  data-depth="0">
