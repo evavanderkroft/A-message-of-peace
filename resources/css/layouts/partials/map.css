@@ -1,11 +1,15 @@
 body{
     height:100%;
+    background-image: url(/images/map_items/brown_grunge_texture_sjpg4030.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .menu-item {
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     display:flex;
+    margin-top:50px;
 }
 
 .menu-item-link{
