@@ -17,7 +17,7 @@
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">school</h1>
                     </div>
-                    <div class="arrow_container" style="top:50%; left:45%;" >
+                    <div class="arrow_container" style="top:70vh; left:45vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('village-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
@@ -28,7 +28,7 @@
                             <p>Go back to the Village</p>
                         </div>
                     </div>
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:47vh; left:40vw;">
                     </div>
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
@@ -47,7 +47,7 @@
                         </div>
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:20vw;">
                     </div>
                     <div id="popup-modal2" class="popup-modal">
                         <!-- Modal content -->

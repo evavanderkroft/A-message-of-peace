@@ -28,7 +28,7 @@
                             <p>Go back to the City</p>
                         </div>
                     </div>
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:28vw;">
                     </div>
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
@@ -49,7 +49,7 @@
                         </div>
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:45vh; left:70vw;">
                     </div>
                     <div id="popup-modal2" class="popup-modal">
                         <!-- Modal content -->
