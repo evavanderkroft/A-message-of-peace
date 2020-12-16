@@ -12,7 +12,7 @@
                     <div class="background-waterwell-2">
                     </div>
                 </li>
-                <li class="layer-content z-30" data-depth="0">
+                <li class="layer-content z-40" data-depth="0.60" data-depth-y="0.10">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">water well</h1>
@@ -99,50 +99,11 @@
             window.scrollTo(0, 0);
         }
 
-        // let video = document.getElementById("video");
-        //
-        // function quitVideo() {
-        //     video.pause();
-        // }
-        //
-        // // Get the modal
-        // var modal1 = document.getElementById("popup-modal1");
-        // var modal2 = document.getElementById("popup-modal2");
-        //
-        // // Get the button that opens the modal
-        // var btn1 = document.getElementById("popup-button1");
-        // var btn2 = document.getElementById("popup-button2");
-        //
-        // // Get the <span> element that closes the modal
-        // var span1 = document.getElementById("popup-close1")
-        // var span2 = document.getElementById("popup-close2")
-        //
-        // // When the user clicks on the button, open the modal
-        // btn1.onclick = function() {
-        //     modal1.style.display = "block";
-        // }
-        //
-        // btn2.onclick = function() {
-        //     modal2.style.display = "block";
-        // }
-        //
-        // // When the user clicks on <span> (x), close the modal
-        // span1.onclick = function() {
-        //     modal1.style.display = "none";
-        // }
-        // span2.onclick = function() {
-        //     modal2.style.display = "none";
-        // }
-        //
-        // // When the user clicks anywhere outside of the modal, close it
-        // window.onclick = function(event) {
-        //     if (event.target == modal1) {
-        //         modal1.style.display = "none";
-        //     }
-        //     if (event.target == modal2) {
-        //         modal2.style.display = "none";
-        //     }
-        // }
+        let video = document.getElementById("video");
+
+        function quitVideo() {
+            video.pause();
+        }
 
     </script>
 @endsection
