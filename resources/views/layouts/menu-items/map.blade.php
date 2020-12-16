@@ -1,8 +1,10 @@
 @extends('layouts')
-@section('content')
-@include ('layouts.partials.header')
 
-<body>
+@section('content')
+
+
+<div class="map">
+    @include ('layouts.partials.header')
 <div class="menu-items">
     <div class="row-1-top">
         <div class="city-slum">
@@ -74,7 +76,6 @@
         </div>
     </div>
 </div>
-</body>
-
-    @endsection
+</div>
+@endsection
 
