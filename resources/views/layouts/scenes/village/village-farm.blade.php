@@ -5,7 +5,7 @@
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1-farm z-10" data-depth="0.70" style="">
-                    <div class="background-farm-1" id="sky">
+                    <div class="" id="sky">
                     </div>
                 </li>
                 <li class="layer layer-2-farm z-20" data-depth="0.60" data-depth-y="0.10" style="">
