@@ -13,10 +13,10 @@
                     </div>
                 </li>
                 <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:47vh; left:40vw;">
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:20vw;">
                     </div>
                 </li>
                 <li class="layer-content z-30"  data-depth="0">

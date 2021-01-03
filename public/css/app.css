@@ -633,8 +633,8 @@ h1{
   font-size: 25px;
   font-weight: bold;
 }
-body{
-  height:100%;
+.map{
+  height:100vh;
   background-image: url(/images/map_items/brown_grunge_texture_sjpg4030.jpg);
   background-repeat: no-repeat;
   background-size: 100%;

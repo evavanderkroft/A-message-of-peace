@@ -19511,6 +19511,7 @@ if (btn1) {
           modal1.style.display = "none";
           modal2.style.display = "none";
           modal3.style.display = "none";
+          modal5.style.display = "none";
         };
 
         if (btn5) {
