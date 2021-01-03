@@ -18,6 +18,22 @@
 
                     </div>
                 </li>
+                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:45vw;">
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:45vh; left:25vw;">
+                    </div>
+
+                    <div id="popup-button3" class="infobutton popup-button" style="bottom:45vh; left:65vw;">
+                    </div>
+
+                    <div id="popup-button5" class="infobutton popup-button" style="bottom:55vh; left:30vw;">
+                    </div>
+
+                    <div id="popup-button4" class="infobutton popup-button" style="bottom:45vh; left:40vw;">
+                    </div>
+                </li>
                 <li class="layer layer-content z-40" data-depth="0" data-depth-y="0.10">
                     <div class="box-title z-40">
                         <p class="subtext">You are at the:</p>
@@ -67,8 +83,7 @@
                             <p>Go back to the Main Road</p>
                         </div>
                     </div>
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:45vw;">
-                    </div>
+
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
@@ -83,8 +98,6 @@
                         </div>
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:45vh; left:25vw;">
-                    </div>
                     <div id="popup-modal2" class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
@@ -103,8 +116,7 @@
                                 are paid for their work. </p>
                         </div>
                     </div>
-                    <div id="popup-button3" class="infobutton popup-button" style="bottom:45vh; left:65vw;">
-                    </div>
+
                     <div id="popup-modal3"  class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
@@ -123,8 +135,6 @@
                         </div>
                     </div>
 
-                    <div id="popup-button4" class="infobutton popup-button" style="bottom:45vh; left:40vw;">
-                    </div>
                     <div id="popup-modal4" class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
@@ -141,8 +151,7 @@
                                 The remaining 4 percent of these kids work in mining and in service. </p>
                         </div>
                     </div>
-                    <div id="popup-button5" class="infobutton popup-button" style="bottom:55vh; left:30vw;">
-                    </div>
+
                     <div id="popup-modal5"  class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
