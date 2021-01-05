@@ -5,7 +5,16 @@
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1-village z-10" data-depth="0.70" style="">
-                    <div class="background-village-" id="sky">
+                    <div class="background-village-1" id="sky">
+                        <div class="container-bird">
+                        <div class="bird-container bird-container--one">
+                            <div class="bird bird--one"></div>
+                        </div>
+
+                        <div class="bird-container bird-container--two">
+                            <div class="bird bird--two"></div>
+                        </div>
+                        </div>
                     </div>
                 </li>
                 <li class="layer layer-2-village z-20" data-depth="0.60" data-depth-y="0.10" style="">

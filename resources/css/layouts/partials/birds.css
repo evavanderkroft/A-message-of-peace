@@ -1,5 +1,17 @@
 
-
+.container-bird {
+    transform: rotate(180deg);
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 35rem;
+}
 
 .bird {
     background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/174479/bird-cells-new.svg);
