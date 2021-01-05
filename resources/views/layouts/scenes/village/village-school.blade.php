@@ -24,7 +24,7 @@
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">school</h1>
                     </div>
-                    <div class="arrow_container" style="top:50%; left:45%;" >
+                    <div class="arrow_container" style="bottom:10vh; left:50vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('village-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
