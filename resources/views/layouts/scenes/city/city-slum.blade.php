@@ -5,11 +5,18 @@
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1-slum z-10" data-depth="0.70" style="">
-                    <div class="" id="sky">
+                    <div class="background-slum-1" id="sky">
                     </div>
                 </li>
                 <li class="layer layer-2-slum z-20" data-depth="0.60" data-depth-y="0.10" style="">
                     <div class="background-slum-2">
+                    </div>
+                </li>
+                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:28vw;">
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:45vh; left:70vw;">
                     </div>
                 </li>
                 <li class="layer-content z-30" data-depth="0">
@@ -28,8 +35,7 @@
                             <p>Go back to the City</p>
                         </div>
                     </div>
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:28vw;">
-                    </div>
+
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
@@ -53,8 +59,6 @@
                         </div>
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:45vh; left:70vw;">
-                    </div>
                     <div id="popup-modal2" class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">

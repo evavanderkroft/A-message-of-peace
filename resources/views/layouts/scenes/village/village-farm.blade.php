@@ -5,23 +5,29 @@
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
                 <li class="layer layer-1-farm z-10" data-depth="0.70" style="">
-                    <div class="" id="sky">
+                    <div class="background-farm-1" id="sky">
                     </div>
                 </li>
                 <li class="layer layer-2-farm z-20" data-depth="0.60" data-depth-y="0.10" style="">
                     <div class="background-farm-2">
                     </div>
                 </li>
+                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:54vw;">
+                    </div>
+
+
+                </li>
                 <li class="layer-content z-30"  data-depth="">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">farm</h1>
                     </div>
-                    <div class="arrow_container" style="top:70vh; left:25vw;" >
+                    <div class="arrow_container" style="top:50%; left:45%;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('village-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
-                                         style="transform: rotate(180deg); transform-origin: 50% 50%;"/>
+                                         style="transform: rotate(0deg); transform-origin: 50% 50%;"/>
                             </a>
                         </svg>
                         <div class="arrow_text">
@@ -29,8 +35,6 @@
                         </div>
                     </div>
 
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:54vw;">
-                    </div>
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
@@ -59,7 +63,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="layer z-50" data-depth="0"style="">
+                <li class="layer-5" data-depth="0" style="">
                     @include ('layouts.partials.header')
                 </li>
             </div>
