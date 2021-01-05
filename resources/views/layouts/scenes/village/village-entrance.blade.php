@@ -7,13 +7,13 @@
                 <li class="layer layer-1-village z-10" data-depth="0.70" style="">
                     <div class="background-village-1" id="sky">
                         <div class="container-bird">
-                        <div class="bird-container bird-container--one">
-                            <div class="bird bird--one"></div>
-                        </div>
+                            <div class="bird-container bird-container--one">
+                                <div class="bird bird--one"></div>
+                            </div>
 
-                        <div class="bird-container bird-container--two">
-                            <div class="bird bird--two"></div>
-                        </div>
+                            <div class="bird-container bird-container--two">
+                                <div class="bird bird--two"></div>
+                            </div>
                         </div>
                     </div>
                 </li>
@@ -25,6 +25,22 @@
                 <li class="layer layer-3-village z-30" data-depth="0.50" data-depth-y="0.20"  style="">
                     <div class="background-village-3">
 
+                    </div>
+                </li>
+                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:45vw;">
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:45vh; left:25vw;">
+                    </div>
+
+                    <div id="popup-button3" class="infobutton popup-button" style="bottom:45vh; left:65vw;">
+                    </div>
+
+                    <div id="popup-button5" class="infobutton popup-button" style="bottom:55vh; left:30vw;">
+                    </div>
+
+                    <div id="popup-button4" class="infobutton popup-button" style="bottom:45vh; left:40vw;">
                     </div>
                 </li>
                 <li class="layer layer-content z-40" data-depth="0" data-depth-y="0.10">

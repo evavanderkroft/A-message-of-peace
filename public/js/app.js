@@ -19511,6 +19511,7 @@ if (btn1) {
           modal1.style.display = "none";
           modal2.style.display = "none";
           modal3.style.display = "none";
+          modal5.style.display = "none";
         };
 
         if (btn5) {
@@ -19590,8 +19591,8 @@ window.onclick = function (event) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\xampp\htdocs\2020-2021\A-message-of-peace\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\2020-2021\A-message-of-peace\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\xampp\htdocs\A-message-of-peace\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\A-message-of-peace\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

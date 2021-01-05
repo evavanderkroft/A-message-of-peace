@@ -12,6 +12,13 @@
                     <div class="background-school-2">
                     </div>
                 </li>
+                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:47vh; left:40vw;">
+                    </div>
+
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:20vw;">
+                    </div>
+                </li>
                 <li class="layer-content z-30"  data-depth="0">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
@@ -28,12 +35,15 @@
                             <p>Go back to the Village</p>
                         </div>
                     </div>
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
-                    </div>
+
                     <div id="popup-modal1"  class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/village-school.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
 
                             <h1 class="text-title">the teacher</h1>
                             <p>Teachers in rural area schools are often underpaid or
@@ -47,12 +57,14 @@
                         </div>
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
-                    </div>
                     <div id="popup-modal2" class="popup-modal">
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/school-village2.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
 
                             <h1 class="text-title">the student</h1>
                             <p>Not only are there a lot less opportunities for village
