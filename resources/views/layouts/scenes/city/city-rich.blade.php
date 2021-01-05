@@ -12,7 +12,7 @@
                     <div class="background-city-rich-2">
                     </div>
                 </li>
-                <li class="layer-info z-30" data-depth="0.60" data-depth-y="0.10">
+                <li class="layer-info z-30" data-depth="0.10">
                     <div id="popup-button1" class="infobutton popup-button" style="bottom:20vh; left:38vw;">
                     </div>
 
