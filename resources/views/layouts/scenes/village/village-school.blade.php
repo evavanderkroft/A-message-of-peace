@@ -34,6 +34,10 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/village-school.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
 
                             <h1 class="text-title">the teacher</h1>
                             <p>Teachers in rural area schools are often underpaid or
@@ -53,6 +57,10 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/school-village2.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
 
                             <h1 class="text-title">the student</h1>
                             <p>Not only are there a lot less opportunities for village

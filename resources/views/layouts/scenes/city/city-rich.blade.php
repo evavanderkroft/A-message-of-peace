@@ -35,7 +35,10 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
-
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/city.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
                             <h1 class="text-title">rich people</h1>
                             <p>The bigger cities in Uganda are home to the more wealthy
                                 citizens. Their cities are a lot better developed and

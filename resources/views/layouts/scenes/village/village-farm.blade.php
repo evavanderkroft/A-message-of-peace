@@ -35,7 +35,10 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
-
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/farm.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
                             <h1 class="text-title">the farmers </h1>
                             <p>There are many villages in Uganda, often reproducing coffee,
                                 tea, cotton, tobacco and cocoa. Besides that, many farmers

@@ -56,7 +56,10 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close2" class="close" onclick="quitVideo()">&times;</span>
-
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/school-city.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
                             <h1 class="text-title">the student</h1>
                             <p>Not only are there more students going to school
                                 in the city, the students from city schools often

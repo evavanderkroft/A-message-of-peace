@@ -34,6 +34,10 @@
                         <!-- Modal content -->
                         <div class="modal-content">
                             <span id="popup-close1" class="close" onclick="quitVideo()">&times;</span>
+                            <video controls controlsList="nodownload" disablePictureInPicture id="video">
+                                <source src="videos/slum.mp4" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
 
                             <h1 class="text-title">homeless people</h1>
                             <p>In the bigger cities and towns, there is also a lot of
