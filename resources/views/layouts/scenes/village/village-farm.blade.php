@@ -12,13 +12,13 @@
                     <div class="background-farm-2">
                     </div>
                 </li>
-                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                <li class="layer-info z-30" data-depth="0.60" data-depth-y="0.10">
                     <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:54vw;">
                     </div>
 
 
                 </li>
-                <li class="layer-content z-30"  data-depth="">
+                <li class="layer-content z-50"  data-depth="">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">farm</h1>

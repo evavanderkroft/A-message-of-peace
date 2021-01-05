@@ -14,12 +14,11 @@ body {
 
 .layer-1-mainroad {
     position: relative;
-    height: 1200px;
+    height: 130%;
 }
 
 .layer-2-mainroad {
     position: relative;
-    height: 130%;
     width: 100vw;
 
 }
@@ -31,16 +30,16 @@ body {
 }
 
 .background-mainroad-2 {
-    background: url(/images/city.png) no-repeat 50% 100%;
+    background: url(/images/main-road.png) no-repeat 50% 100%;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
-    /*background-size: cover;*/
+    background-size: cover;
     position: absolute;
     width: 120%;
     left: -10%;
-    top: -13%;
-    height: 100%;
+    bottom: -5%;
+    height: 150%;
 }
 
 .background-mainroad-3 {

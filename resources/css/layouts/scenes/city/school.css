@@ -1,0 +1,42 @@
+.layer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.layer-1-city-school {
+    position: relative;
+    height: 130%;
+}
+
+.layer-2-city-school {
+    position: relative;
+    height: 130%;
+    width: 100vw;
+
+}
+
+.background-city-school-2 {
+    background: url(/images/city/city-school.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    background-size: cover;
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    bottom: 10%;
+    height: 100%;
+}
+
+/*.background-mainroad-3 {
+    background: url(/images/2men.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 30vw !important;
+    bottom: -25vh;
+}*/

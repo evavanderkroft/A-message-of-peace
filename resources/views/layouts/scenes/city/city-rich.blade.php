@@ -4,23 +4,22 @@
     <main class="index overflow-hidden  m-0 ">
         <section class="">
             <div class="scene pointer-events-auto" id="scene">
-                <li class="layer layer-1 z-10" data-depth="0.90" data-depth-y="0.20" style="">
-                    <div class="background-layer-1">
+                <li class="layer layer-1-city-rich z-10" data-depth="0.90" data-depth-y="0.20" style="">
+                    <div class="background-city-rich-1" id="sky">
                     </div>
                 </li>
-                <li class="layer layer-2 z-0" data-depth="0.10" style="">
-                    <img src="{{ asset('/images/sky.jpg') }}" alt="">
-                    <div class="background-layer-2">
+                <li class="layer layer-2-city-rich z-10" data-depth="0.10" style="">
+                    <div class="background-city-rich-2">
                     </div>
                 </li>
-                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:38vw;">
+                <li class="layer-info z-30" data-depth="0.60" data-depth-y="0.10">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:20vh; left:38vw;">
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:50vh; left:70vw;">
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:20vh; left:70vw;">
                     </div>
                 </li>
-                <li class="layer-content z-30"  data-depth="0">
+                <li class="layer-content z-40"  data-depth="0">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">rich</h1>
