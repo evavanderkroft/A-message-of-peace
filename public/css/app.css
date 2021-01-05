@@ -843,12 +843,11 @@ body {
 
 .layer-1-mainroad {
   position: relative;
-  height: 1200px;
+  height: 130%;
 }
 
 .layer-2-mainroad {
   position: relative;
-  height: 130%;
   width: 100vw;
 }
 
@@ -858,16 +857,16 @@ body {
 }
 
 .background-mainroad-2 {
-  background: url(/images/city.png) no-repeat 50% 100%;
+  background: url(/images/main-road.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
-  /*background-size: cover;*/
+  background-size: cover;
   position: absolute;
   width: 120%;
   left: -10%;
-  top: -13%;
-  height: 100%;
+  bottom: -5%;
+  height: 150%;
 }
 
 .background-mainroad-3 {
@@ -978,17 +977,17 @@ body {
   height: 140%;
 }
 
-.layer-3-city {
-  width: 30%;
-  right: 20% !important;
-  left: unset !important;
-  height: 100%;
-  bottom: 10vw;
-  top: unset !important;
-}
+/*.layer-3-city {
+    width: 30%;
+    right: 20% !important;
+    left: unset !important;
+    height: 100%;
+    bottom: 10vw;
+    top: unset !important;
+}*/
 
 .background-city-2 {
-  background: url(/images/centrum.png) no-repeat 50% 100%;
+  background: url(/images/city/city-centrum.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100% auto;
@@ -997,8 +996,8 @@ body {
   position: absolute;
   width: 120%;
   left: -10%;
-  /*top: -5%;*/
-  height: 100%;
+  bottom: -5%;
+  height: 120%;
 }
 
 .scene1-background-layer-3 {
@@ -1259,6 +1258,80 @@ body {
   height: 105%;
   left: -5%;
 }
+.layer {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.layer-1-city-rich {
+  position: relative;
+  height: 100vw;
+}
+
+.layer-2-city-rich {
+  position: relative;
+  height: 110%;
+  width: 100vw;
+}
+
+.background-city-rich-1 {
+  height: 90% !important;
+}
+
+.background-city-rich-2 {
+  background: url(/images/city/city-rich.png) no-repeat 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  right: -5%;
+  bottom: -5%;
+  height: 130%;
+}
+.layer {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.layer-1-city-school {
+  position: relative;
+  height: 130%;
+}
+
+.layer-2-city-school {
+  position: relative;
+  height: 130%;
+  width: 100vw;
+}
+
+.background-city-school-2 {
+  background: url(/images/city/city-school.png) no-repeat 50% 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  background-size: cover;
+  position: absolute;
+  width: 120%;
+  left: -10%;
+  bottom: 0%;
+  height: 100%;
+}
+
+/*.background-mainroad-3 {
+    background: url(/images/2men.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 30vw !important;
+    bottom: -25vh;
+}*/
 * {
   box-sizing: border-box;
 }

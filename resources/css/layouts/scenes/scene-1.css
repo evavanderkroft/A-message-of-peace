@@ -10,17 +10,17 @@
     height: 140%;
 }
 
-.layer-3-city {
+/*.layer-3-city {
     width: 30%;
     right: 20% !important;
     left: unset !important;
     height: 100%;
     bottom: 10vw;
     top: unset !important;
-}
+}*/
 
 .background-city-2 {
-    background: url(/images/centrum.png) no-repeat 50% 100%;
+    background: url(/images/city/city-centrum.png) no-repeat 50% 100%;
     background-repeat: no-repeat;
     background-position: center top;
     background-size: 100% auto;
@@ -29,8 +29,8 @@
     position: absolute;
     width: 120%;
     left: -10%;
-    /*top: -5%;*/
-    height: 100%;
+    bottom: -5%;
+    height: 120%;
 }
 
 .scene1-background-layer-3 {

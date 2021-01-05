@@ -31,6 +31,8 @@
 
         /*city*/
         @import 'layouts/scenes/city/slum.css';
+        @import 'layouts/scenes/city/rich.css';
+        @import 'layouts/scenes/city/school.css';
 
     /*video*/
     @import 'layouts/partials/video.css';
