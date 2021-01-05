@@ -27,7 +27,7 @@
 
                     </div>
                 </li>
-                <li class="layer-info z-50" data-depth="0.60" data-depth-y="0.10">
+                <li class="layer-info z-40" data-depth="0.60" data-depth-y="0.10">
                     <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:45vw;">
                     </div>
 
@@ -43,7 +43,7 @@
                     <div id="popup-button4" class="infobutton popup-button" style="bottom:45vh; left:40vw;">
                     </div>
                 </li>
-                <li class="layer layer-content z-40" data-depth="0">
+                <li class="layer layer-content z-50" data-depth="0">
                     <div class="box-title z-40">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">village</h1>
