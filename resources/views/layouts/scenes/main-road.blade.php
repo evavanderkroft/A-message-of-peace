@@ -17,11 +17,11 @@
                     <div class="background-mainroad-3">
                     </div>
                 </li>
-                <li class="layer-info z-50" data-depth="0.40">
+                <li class="layer-info z-30" data-depth="0.40">
                     <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:50vw;">
                     </div>
                 </li>
-                <li class="layer-content z-30 " data-depth="0"style="">
+                <li class="layer-content z-50 " data-depth="0"style="">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">main road</h1>
