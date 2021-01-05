@@ -25,7 +25,7 @@
             <p class="subtext">You are at the:</p>
             <h1 class="title">city</h1>
         </div>
-        <div class="arrow_container" style="top:50vh; right:10vw;" >
+        <div class="arrow_container" style="bottom:20vh; right:10vw;" >
             <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                 <a href="{{ route('city-slum') }}" >
                     <polygon class="arrow" points="55,15 95,105 55,85 15,105"
@@ -36,7 +36,7 @@
                 <p>Go to the Slum</p>
             </div>
         </div>
-        <div class="arrow_container" style="top:50vh; left:10vw;" >
+        <div class="arrow_container" style="bottom:20vh; left:10vw;" >
             <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                 <a href="{{ route('city-rich') }}" >
                     <polygon class="arrow" points="55,15 95,105 55,85 15,105"
@@ -47,7 +47,7 @@
                 <p>Go to the Rich</p>
             </div>
         </div>
-        <div class="arrow_container" style="top:50vh; right:25vw;" >
+        <div class="arrow_container" style="bottom:20vh; right:25vw;" >
             <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                 <a href="{{ route('city-school') }}" >
                     <polygon class="arrow" points="55,15 95,105 55,85 15,105"
@@ -58,7 +58,7 @@
                 <p>Go to the School</p>
             </div>
         </div>
-        <div class="arrow_container" style="bottom:20%; left:45%;" >
+        <div class="arrow_container" style="bottom:5%; left:45%;" >
             <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                 <a href="{{ route('main-road') }}" >
                     <polygon class="arrow" points="55,15 95,105 55,85 15,105"
