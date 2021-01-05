@@ -13,7 +13,7 @@
                     </div>
                 </li>
                 <li class="layer-info z-30" data-depth="0.60" data-depth-y="0.10">
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:40vh; left:54vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:43vh; left:59vw;">
                     </div>
 
 
@@ -23,7 +23,7 @@
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">farm</h1>
                     </div>
-                    <div class="arrow_container" style="bottom:10vh; left:30vw;" >
+                    <div class="arrow_container" style="bottom:14vh; left:20vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('village-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
