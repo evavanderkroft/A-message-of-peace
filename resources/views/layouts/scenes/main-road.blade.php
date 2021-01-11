@@ -18,7 +18,7 @@
                     </div>
                 </li>
                 <li class="layer-info z-30" data-depth="0.40">
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:50vh; left:50vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:34vh; left:55vw;">
                     </div>
                 </li>
                 <li class="layer-content z-50 " data-depth="0"style="">
@@ -26,7 +26,7 @@
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">main road</h1>
                     </div>
-                    <div class="arrow_container" style="top:60vh; left:15%;">
+                    <div class="arrow_container" style="top:75vh; left:15%;">
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
                             <a href="{{ route('city-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
@@ -37,7 +37,7 @@
                             <p>Go to the City</p>
                         </div>
                     </div>
-                    <div class="arrow_container" style="top:60vh; right:15%;" >
+                    <div class="arrow_container" style="top:75vh; right:15%;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('village-entrance') }}">
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="layer layer-4-mainroad z-40" data-depth="0"style="">
+                <li class="layer layer-4-mainroad z-50" data-depth="0"style="">
                     @include ('layouts.partials.header')
                 </li>
             </div>

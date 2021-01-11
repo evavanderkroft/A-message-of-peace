@@ -13,10 +13,10 @@
                     </div>
                 </li>
                 <li class="layer-info z-30" data-depth="0.10">
-                    <div id="popup-button1" class="infobutton popup-button" style="bottom:20vh; left:38vw;">
+                    <div id="popup-button1" class="infobutton popup-button" style="bottom:26vh; left:25vw;">
                     </div>
 
-                    <div id="popup-button2" class="infobutton popup-button" style="bottom:20vh; left:70vw;">
+                    <div id="popup-button2" class="infobutton popup-button" style="bottom:26vh; left:76vw;">
                     </div>
                 </li>
                 <li class="layer-content z-40"  data-depth="0">
@@ -24,7 +24,7 @@
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">rich</h1>
                     </div>
-                    <div class="arrow_container" style="bottom:10vh; left:50vw;" >
+                    <div class="arrow_container" style="bottom:5vh; left:50vw;" >
                         <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
                             <a href="{{ route('city-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
