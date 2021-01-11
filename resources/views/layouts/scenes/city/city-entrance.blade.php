@@ -20,7 +20,7 @@
                     @include ('layouts.partials.header')
                 </li>
                 <li class="layer-content z-40"  data-depth="0">
-                    <div class="box-title z-50" style="bottom: 100vh">
+                    <div class="box-title">
                         <p class="subtext">You are at the:</p>
                         <h1 class="title">city</h1>
                     </div>
