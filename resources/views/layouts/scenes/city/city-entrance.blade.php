@@ -16,9 +16,6 @@
                     <div class="background-city-3">
                     </div>
                 </li>
-                <li class="layer layer-4-mainroad z-40" data-depth="0"style="">
-                    @include ('layouts.partials.header')
-                </li>
                 <li class="layer-content z-40"  data-depth="0">
                     <div class="box-title">
                         <p class="subtext">You are at the:</p>
@@ -68,6 +65,9 @@
                             <p>Go back to the Main Road</p>
                         </div>
                     </div>
+                </li>
+                <li class="layer layer-4-mainroad z-50" data-depth="0"style="">
+                    @include ('layouts.partials.header')
                 </li>
             </div>
         </section>
