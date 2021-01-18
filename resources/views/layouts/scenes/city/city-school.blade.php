@@ -25,7 +25,7 @@
                         <h1 class="title">school</h1>
                     </div>
                     <div class="arrow_container" style="bottom:5vh; left:75vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="svg_arrow filter" >
                             <a href="{{ route('city-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
                                          style="transform: rotate(90deg); transform-origin: 50% 50%;"/>

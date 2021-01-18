@@ -17,8 +17,6 @@ Route::get('/', function () {
     return view('layouts.index');
 });
 
-/*Route::get('/', [IndexController::class, 'index'])->name('index.index');*/
-
 //menu-items
 Route::get('/about', function () {
     return view('layouts.menu-items.about');})->name('about');

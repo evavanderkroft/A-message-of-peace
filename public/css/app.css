@@ -15,7 +15,7 @@ svg{
   filter: drop-shadow(0px 0px 4px black);
 }
 
-.test{
+.svg_arrow{
   pointer-events: all;
   -webkit-animation-name: arrow_small;
           animation-name: arrow_small;
@@ -25,7 +25,7 @@ svg{
           animation-fill-mode: forwards;
 }
 
-.test .arrow{
+.svg_arrow .arrow{
   position:relative;
   left:10px; bottom:10px;
   stroke:#FFE555;
@@ -38,7 +38,7 @@ svg{
           animation-fill-mode: forwards;
 }
 
-.test:hover{
+.svg_arrow:hover{
   transform: scale(1.2);
   -webkit-animation-name: arrow_big;
           animation-name: arrow_big;
@@ -48,7 +48,7 @@ svg{
           animation-fill-mode: forwards;
 }
 
-.test:hover .arrow{
+.svg_arrow:hover .arrow{
   -webkit-animation-name: arrow_fill;
           animation-name: arrow_fill;
   -webkit-animation-duration: .4s;
@@ -343,7 +343,7 @@ li {
   text-align:center;
 }
 
-.linkjes_delen{
+.sharing{
   position:absolute;
   bottom:5%;
   padding: 0 50px 0 50px;
@@ -597,8 +597,6 @@ li {
   width: 50vw; /* Full width */
   height: auto; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  /*background-color: rgb(0,0,0); !* Fallback color *!*/
-  /*background-color: rgba(0,0,0,0.4); !* Black w/ opacity *!*/
 }
 
 /* Modal Content/Box */
@@ -607,13 +605,10 @@ li {
   background-color: #FFE555;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  /*border: 1px solid #888;*/
   width: 80%;
   box-shadow: 0 0 20px #997D3B;
   border-radius: 15px;
   /* Could be more or less, depending on screen size */
-  /*background-color: rgb(0,0,0); !* Fallback color *!*/
-  /*background-color: rgba(0,0,0,0.4); !* Black w/ opacity *!*/
 }
 
 /* The Close Button */
@@ -625,8 +620,7 @@ li {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
@@ -835,9 +829,6 @@ body {
   height:100%;
 }
 
-.button-link {
-}
-
 .layer {
   height: 100%;
   padding: 0;
@@ -980,15 +971,6 @@ body {
   height: 140%;
 }
 
-/*.layer-3-city {
-    width: 30%;
-    right: 20% !important;
-    left: unset !important;
-    height: 100%;
-    bottom: 10vw;
-    top: unset !important;
-}*/
-
 .background-city-2 {
   background: url(/images/city/city-centrum.png) no-repeat 50% 100%;
   background-repeat: no-repeat;
@@ -1003,60 +985,6 @@ body {
   height: 120%;
 }
 
-.scene1-background-layer-3 {
-  background: url(/images/2men.png) no-repeat 50% 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 100% auto;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  left: -10%;
-  top: -5%;
-  height: 100%;
-}
-
-.scene1-arrow-left {
-  position: absolute;
-  width: 3vmin;
-  height: 3vmin;
-  background: transparent;
-  border-top: 1vmin solid #5ecb5e;
-  border-right: 1vmin solid #5ecb5e;
-  transition: all 200ms ease;
-  transform: translate3d(0,-50%,0) rotate(200deg);
-}
-
-/*.scene1-arrow-right{
-    position: absolute;
-    width: 3vmin;
-    height: 3vmin;
-    background: transparent;
-    border-top: 1vmin solid #5ecb5e;
-    border-right: 1vmin solid #5ecb5e;
-    transition: all 200ms ease;
-    transform: translate3d(0,-50%,0) rotate(270deg);
-}
-
-.scene1-button-right span, .scene1-button-left span {
-    color: black;
-    background-color: #fff;
-    padding: 10px;
-    margin: 40px;
-    border-radius: 5px;
-}
-
-.scene1-button-left {
-    bottom: 50%;
-    left: 15%;
-    position: absolute;
-}
-
-.scene1-button-right {
-    bottom: 55%;
-    right: 3%;
-    position: absolute;
-}*/
 #sky {
   transform: rotate(180deg);
   position: absolute;

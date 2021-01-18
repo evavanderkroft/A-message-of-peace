@@ -49,7 +49,7 @@
                         <h1 class="title">village</h1>
                     </div>
                     <div class="arrow_container" style="top:50vh; right:43vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="svg_arrow filter">
                             <a href="{{ route('village-waterwell') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
                                           style="transform:rotate(10deg); transform-origin: 50%50%;"/>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="arrow_container" style="top:58vh; left:20vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="svg_arrow filter">
                             <a href="{{ route('village-farm') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
                                          style="transform:rotate(280deg); transform-origin: 50% 50%;" />
@@ -71,7 +71,7 @@
                         </div>
                     </div>
                     <div class="arrow_container" style="top:50vh; left:85vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter">
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="svg_arrow filter">
                             <a href="{{ route('village-school') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
                                          style="transform:rotate(0deg); transform-origin: 50% 50%;" />
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="arrow_container" style="bottom:10vh; left:50vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="svg_arrow filter" >
                             <a href="{{ route('main-road') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
                                          style="transform:rotate(180deg); transform-origin: 50% 50%;" />

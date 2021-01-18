@@ -11,13 +11,13 @@ svg{
 .filter{
     filter: drop-shadow(0px 0px 4px black);
 }
-.test{
+.svg_arrow{
     pointer-events: all;
     animation-name: arrow_small;
     animation-duration: .4s;
     animation-fill-mode: forwards;
 }
-.test .arrow{
+.svg_arrow .arrow{
     position:relative;
     left:10px; bottom:10px;
     stroke:#FFE555;
@@ -26,13 +26,13 @@ svg{
     animation-duration: .4s;
     animation-fill-mode: forwards;
 }
-.test:hover{
+.svg_arrow:hover{
     transform: scale(1.2);
     animation-name: arrow_big;
     animation-duration: .4s;
     animation-fill-mode: forwards;
 }
-.test:hover .arrow{
+.svg_arrow:hover .arrow{
     animation-name: arrow_fill;
     animation-duration: .4s;
     animation-fill-mode: forwards;

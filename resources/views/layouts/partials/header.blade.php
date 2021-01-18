@@ -10,8 +10,7 @@
                 <a class="sidenav_item_bottom" href="{{route('policy')}}">Policy</a>
                 <a class="sidenav_item_bottom" href="{{route('copyrights')}}">Copyrights</a>
             </div>
-            <div class="linkjes_delen">
-            <!-- Sharingbutton Facebook -->
+            <div class="sharing">
                 <!-- Sharingbutton Facebook -->
                 <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhack-the-planet.io%2F" target="_blank" rel="noopener" aria-label="">
                     <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">

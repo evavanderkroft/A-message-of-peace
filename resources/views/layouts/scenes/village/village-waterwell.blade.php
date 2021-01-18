@@ -24,7 +24,7 @@
                         <h1 class="title">water well</h1>
                     </div>
                     <div class="arrow_container" style="bottom:20vh; left:7vw;" >
-                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="test filter" >
+                        <svg viewBox="0 0 120 120" height="70px" width="70px" class="svg_arrow filter" >
                             <a href="{{ route('village-entrance') }}" >
                                 <polygon class="arrow" points="55,15 95,105 55,85 15,105"
                                          style="transform:rotate(270deg); transform-origin: 50% 50%;"/>
@@ -97,12 +97,6 @@
 
         window.onbeforeunload = function () {
             window.scrollTo(0, 0);
-        }
-
-        let video = document.getElementById("video");
-
-        function quitVideo() {
-            video.pause();
         }
 
     </script>
