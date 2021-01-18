@@ -1,0 +1,46 @@
+#transition {
+    width: 100vw;
+    height: 100vh;
+}
+
+.vlak{
+    margin-top: 30vh;
+    background-color:rgba(242, 242, 228, 0.4);
+    border-radius: 25px;
+    padding: 100px 40px;
+
+}
+
+.text-intro{
+    text-align: center;
+    font-family:Courier, monospace;
+
+}
+
+.text-title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom:20px;
+    font-family: 'Major Mono Display', regular, monospace;
+
+}
+
+.button{
+    position: absolute;
+    transform: translate(-50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    margin: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+

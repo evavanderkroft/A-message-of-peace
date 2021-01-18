@@ -1,0 +1,183 @@
+.map{
+    height:100vh;
+    background-image: url(/images/map_items/brown_grunge_texture_sjpg4030.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.menu-item {
+    width:100px;
+    height:100px;
+    display:flex;
+    margin-top:50px;
+}
+
+.menu-item-link{
+    text-decoration:none;
+}
+
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 50px 0px 50px;
+    /*background-color:blue;*/
+}
+
+.row-1-top{
+    padding-top:10px;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom:20px;
+}
+
+.row-2-top{
+    flex-direction: row;
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom:20px;
+}
+
+.row-3-top{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom:20px;
+}
+
+.row-4-top{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom:10px;
+}
+/*???????????????????????????????????????????????????????????????????????????*/
+/*city slum*/
+#city-slum{
+    order: 1;
+}
+#city-slum:hover +.city-slum-hide{
+    display:block;
+}
+
+
+/*village waterwell*/
+#village-waterwell{
+    order:1;
+}
+
+#village-waterwell:hover +.village-waterwell-hide{
+    display: block;
+}
+
+
+/*city rich*/
+#city-rich{
+    order:2;
+}
+
+#city-rich:hover +.city-rich-hide{
+    display:block;
+}
+
+/*city school*/
+#city-school{
+    order: 2;
+}
+
+#city-school:hover +.city-school-hide{
+    display: block;
+}
+
+/*village farm*/
+#village-farm{
+    order:2;
+}
+
+#village-farm:hover +.village-farm-hide{
+   display:block;
+}
+
+/*village school*/
+#village-school{
+    order:2;
+}
+
+#village-school:hover +.village-school-hide{
+    display: block;
+}
+
+/*city-entrance*/
+#city-entrance{
+    order:3;
+}
+
+#city-entrance:hover +.city-entrance-hide{
+    display:block;
+}
+
+/*village entrance*/
+#village-entrance{
+    order:3;
+}
+
+#village-entrance:hover +.village-entrance-hide{
+    display: block;
+}
+
+/*main road*/
+#main-road{
+    order: 4;
+}
+
+#main-road:hover +.main-road-hide{
+    display:block;
+}
+/*//////////////////////////////////////////////*/
+
+.city-slum-hide{
+    display:none;
+}
+
+.city-rich-hide{
+    display:none;
+}
+
+.city-entrance-hide{
+    display:none;
+}
+
+.city-school-hide{
+    display:none;
+}
+.village-waterwell-hide{
+    display:none;
+}
+
+.village-entrance-hide{
+    display:none;
+}
+
+.village-school-hide{
+    display:none;
+}
+
+.village-farm-hide{
+    display: none;
+}
+
+.main-road-hide{
+    display: none;
+}
+
+
+
+
+
+
+
+

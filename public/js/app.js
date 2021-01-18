@@ -19341,7 +19341,31 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+VANTA.CLOUDS({
+  el: '#transition',
+  // element selector string or DOM object reference
+  color: 0x000000,
+  shininess: 50,
+  waveSpeed: 1.5,
+  speed: 0.40
+});
+VANTA.CLOUDS({
+  el: '#sky',
+  // element selector string or DOM object reference
+  color: 0x000000,
+  shininess: 50,
+  waveSpeed: 1.5,
+  speed: 0.20
+});
+
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
+__webpack_require__(/*! ./popup */ "./resources/js/popup.js");
+
+__webpack_require__(/*! ./menu */ "./resources/js/menu.js");
 
 /***/ }),
 
@@ -19377,6 +19401,163 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/js/menu.js":
+/*!******************************!*\
+  !*** ./resources/js/menu.js ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+/* Set the width of the side navigation to 0 */
+
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+/***/ }),
+
+/***/ "./resources/js/popup.js":
+/*!*******************************!*\
+  !*** ./resources/js/popup.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var video = document.getElementById("video");
+
+function quitVideo() {
+  video.pause();
+} // Get the modal
+
+
+var modal1 = document.getElementById("popup-modal1");
+var modal2 = document.getElementById("popup-modal2");
+var modal3 = document.getElementById("popup-modal3");
+var modal4 = document.getElementById("popup-modal4");
+var modal5 = document.getElementById("popup-modal5"); // Get the button that opens the modal
+
+var btn1 = document.getElementById("popup-button1");
+var btn2 = document.getElementById("popup-button2");
+var btn3 = document.getElementById("popup-button3");
+var btn4 = document.getElementById("popup-button4");
+var btn5 = document.getElementById("popup-button5"); // Get the <span> element that closes the modal
+
+var span1 = document.getElementById("popup-close1");
+var span2 = document.getElementById("popup-close2");
+var span3 = document.getElementById("popup-close3");
+var span4 = document.getElementById("popup-close4");
+var span5 = document.getElementById("popup-close5"); // When the user clicks on the button, open the modal
+
+if (btn1) {
+  btn1.onclick = function () {
+    modal1.style.display = "block";
+    modal2.style.display = "none";
+    modal3.style.display = "none";
+    modal4.style.display = "none";
+    modal5.style.display = "none";
+  };
+
+  if (btn2) {
+    btn2.onclick = function () {
+      modal2.style.display = "block";
+      modal1.style.display = "none";
+      modal3.style.display = "none";
+      modal4.style.display = "none";
+      modal5.style.display = "none";
+    };
+
+    if (btn3) {
+      btn3.onclick = function () {
+        modal3.style.display = "block";
+        modal1.style.display = "none";
+        modal2.style.display = "none";
+        modal4.style.display = "none";
+        modal5.style.display = "none";
+      };
+
+      if (btn4) {
+        btn4.onclick = function () {
+          modal4.style.display = "block";
+          modal1.style.display = "none";
+          modal2.style.display = "none";
+          modal3.style.display = "none";
+          modal5.style.display = "none";
+        };
+
+        if (btn5) {
+          btn5.onclick = function () {
+            modal5.style.display = "block";
+            modal1.style.display = "none";
+            modal2.style.display = "none";
+            modal3.style.display = "none";
+            modal4.style.display = "none";
+          };
+        }
+      }
+    }
+  }
+} // When the user clicks on <span> (x), close the modal
+
+
+if (span1) {
+  span1.onclick = function () {
+    modal1.style.display = "none";
+  };
+
+  if (span2) {
+    span2.onclick = function () {
+      modal2.style.display = "none";
+    };
+
+    if (span3) {
+      span3.onclick = function () {
+        modal3.style.display = "none";
+      };
+
+      if (span4) {
+        span4.onclick = function () {
+          modal4.style.display = "none";
+        };
+
+        if (span5) {
+          span5.onclick = function () {
+            modal5.style.display = "none";
+          };
+        }
+      }
+    }
+  }
+} // When the user clicks anywhere outside of the modal, close it
+
+
+window.onclick = function (event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+
+  if (event.target == modal4) {
+    modal4.style.display = "none";
+  }
+
+  if (event.target == modal5) {
+    modal5.style.display = "none";
+  }
+};
+
+/***/ }),
+
 /***/ 0:
 /*!***********************************************************!*\
   !*** multi ./resources/js/app.js ./resources/css/app.css ***!
@@ -19384,8 +19565,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Rik Vermeulen Dev\PhpstormProjects\A-message-of-peace\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Rik Vermeulen Dev\PhpstormProjects\A-message-of-peace\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\xampp\htdocs\A-message-of-peace\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\A-message-of-peace\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

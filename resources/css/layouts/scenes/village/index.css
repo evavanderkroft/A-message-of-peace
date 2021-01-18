@@ -1,0 +1,75 @@
+#sky {
+    transform: rotate(180deg);
+    position: absolute;
+    width: 130%;
+    left: -10%;
+    top: -18%;
+    height: 70%;
+}
+
+.scene {
+    height: 100vh;
+}
+
+.layer-1-village {
+    position: relative;
+
+}
+
+.layer-2-village {
+    position: relative;
+    height: 100%;
+    width: 100vw;
+}
+
+.layer-3-village {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+    bottom: 5vw;
+}
+
+.layer-nav {
+    height: 100%;
+    width: 100vw;
+}
+
+.background-village-1 {
+    background: url(/images/sky.jpg) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    bottom: 30vh;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 130%;
+    left: -10%;
+    /*top: -5%;*/
+    height: 100%;
+}
+
+.background-village-2 {
+    background: url(/images/village/layer-2-village.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 130%;
+    left: -10%;
+    bottom: -25%;
+    height: 100%;
+}
+
+.background-village-3 {
+    background: url(/images/village/layer-3-village.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    left: -30%;
+    bottom: 10%;
+}

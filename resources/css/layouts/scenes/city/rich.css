@@ -1,0 +1,35 @@
+.layer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.layer-1-city-rich {
+    position: relative;
+    height: 100vw;
+}
+
+.layer-2-city-rich {
+    position: relative;
+    height: 110%;
+    width: 100vw;
+
+}
+
+.background-city-rich-1 {
+    height: 90% !important;
+}
+
+
+.background-city-rich-2 {
+    background: url(/images/city/city-rich.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    background-size: cover;
+    position: absolute;
+    width: 110%;
+    right: -5%;
+    bottom: -5%;
+    height: 130%;
+}

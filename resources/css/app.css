@@ -15,4 +15,31 @@
 
     /*partials*/
     @import 'layouts/partials/header.css';
-    @import 'layouts/partials/footer.css';
+    @import 'layouts/partials/popup.css';
+    @import 'layouts/partials/map.css';
+
+    /*scenes*/
+    @import 'layouts/scenes/index.css';
+    @import 'layouts/scenes/scene-1.css';
+
+        /*village*/
+        @import 'layouts/scenes/village/index.css';
+        @import 'layouts/scenes/village/waterwell.css';
+        @import 'layouts/scenes/village/farm.css';
+        @import 'layouts/scenes/village/school.css';
+
+        /*city*/
+        @import 'layouts/scenes/city/slum.css';
+        @import 'layouts/scenes/city/rich.css';
+        @import 'layouts/scenes/city/school.css';
+
+    /*video*/
+    @import 'layouts/partials/video.css';
+
+    /*intro*/
+    @import 'layouts/intro.css';
+
+    /*menu*/
+    @import 'layouts/menu-items/about.css';
+
+@import 'layouts/partials/birds.css';

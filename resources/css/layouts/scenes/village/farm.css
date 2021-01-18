@@ -1,0 +1,34 @@
+
+.layer-1-farm {
+    position: relative;
+
+}
+
+.layer-2-farm {
+    position: relative;
+    height: 100%;
+    width: 120%;
+}
+
+/*.layer-3-waterwell {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+    bottom: 5vw;
+}
+.layer-nav {
+    height: 100%;
+    width: 100vw;
+}*/
+
+.background-farm-2 {
+    background: url(/images/village/farm.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    position: absolute;
+    width: 95%;
+    bottom: -15%;
+    height: 130%;
+    left: -5%;
+}

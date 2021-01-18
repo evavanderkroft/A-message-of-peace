@@ -1,0 +1,25 @@
+
+.layer-1-city {
+    position: relative;
+    height: 1200px;
+}
+
+.layer-2-city {
+    width: 100vw;
+    height: 140%;
+}
+
+.background-city-2 {
+    background: url(/images/city/city-centrum.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    bottom: 30vh;
+    /*background-size: cover;*/
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    bottom: -5%;
+    height: 120%;
+}
+

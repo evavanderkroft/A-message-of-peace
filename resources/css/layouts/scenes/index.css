@@ -1,0 +1,136 @@
+body {
+    height:100%;
+}
+
+.layer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.layer-1-mainroad {
+    position: relative;
+    height: 130%;
+}
+
+.layer-2-mainroad {
+    position: relative;
+    width: 100vw;
+
+}
+
+.layer-3-mainroad {
+    width: 100vw;
+    height: 100%;
+
+}
+
+.background-mainroad-2 {
+    background: url(/images/main-road.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    background-size: cover;
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    bottom: -5%;
+    height: 150%;
+}
+
+.background-mainroad-3 {
+    background: url(/images/2men.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    right: 30vw !important;
+    bottom: -25vh;
+}
+
+.button-left {
+    bottom: 50%;
+    left: 15%;
+    position: absolute;
+}
+
+.button-top {
+    bottom: 70%;
+    left: 40%;
+    position: absolute;
+}
+
+.button-right {
+    bottom: 55%;
+    right: 3%;
+    position: absolute;
+}
+
+.button-down {
+    bottom: 45%;
+    right: 40%;
+    position: absolute;
+}
+
+/* Hieronder komt de CSS voor de pijlen die Jasper maakt*/
+.arrow-left {
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(200deg);
+}
+
+.arrow-top{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(270deg);
+}
+
+.arrow-right{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(270deg);
+}
+
+.arrow-down{
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: transparent;
+    border-top: 1vmin solid #5ecb5e;
+    border-right: 1vmin solid #5ecb5e;
+    transition: all 200ms ease;
+    transform: translate3d(0,-50%,0) rotate(270deg);
+}
+
+/* Hieronder is de span voor de pijlen met de naam van de locatie waar je naartoe ga */
+.button-right span, .button-left span, .button-top span, .button-down span {
+    color: #000000;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 5px;
+}
+/* Hieronder is de hover voor wanneer je hovert op de pijl*/
+
+
+.popup {
+    background-color: yellow; /* Dit moet naar een goudkleur */
+    position: absolute;
+}

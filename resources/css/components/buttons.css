@@ -1,0 +1,142 @@
+/* arrows */
+.arrow_container{
+    width:120px; height:120px;
+    position:absolute;
+    text-align: center
+}
+svg{
+    position:relative;
+    left:30%;
+}
+.filter{
+    filter: drop-shadow(0px 0px 4px black);
+}
+.svg_arrow{
+    pointer-events: all;
+    animation-name: arrow_small;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+.svg_arrow .arrow{
+    position:relative;
+    left:10px; bottom:10px;
+    stroke:#FFE555;
+    stroke-width:7px;
+    animation-name: arrow_empty;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+.svg_arrow:hover{
+    transform: scale(1.2);
+    animation-name: arrow_big;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+}
+.svg_arrow:hover .arrow{
+    animation-name: arrow_fill;
+    animation-duration: .4s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes arrow_big {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+@keyframes arrow_small {
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes arrow_empty {
+    from{
+        fill:#FFE555;
+    }
+    to{
+        fill:transparent;
+    }
+}
+@keyframes arrow_fill {
+    from{
+        fill:transparent;
+    }
+    to{
+        fill:#FFE555;
+    }
+}
+
+.arrow_text {
+    display: none;
+    font-size: 20px;
+    animation-name: text_visible;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+@keyframes text_visible{
+    from {
+        letter-spacing: 2px;
+        color: transparent;
+    }
+    to 	{
+        color: black;
+        letter-spacing: 0;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+}
+svg:hover ~.arrow_text {
+    display: block;
+}
+/* info button */
+.infobutton {
+    cursor: pointer;
+    pointer-events: auto;
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    animation-name: button_shrink;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+.infobutton:hover{
+
+    animation-name: button_expand;
+    box-shadow: 0 0 5px grey, inset 0 0 5px grey;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button_expand {
+    from {
+        box-shadow: 0 0 6px grey, inset 0 0 5px grey;
+        border: 4px solid #FFE555;
+    }
+    to {
+        background-color: #FFE555;
+        border: 5px solid #FFE555;
+        box-shadow: 0 0 8px grey;
+        transform: scale(1.2);
+    }
+}
+@keyframes button_shrink {
+    from {
+        background-color: #FFE555;
+        border: 5px solid #FFE555;
+        box-shadow: 0 0 8px grey;
+        transform: scale(1.2);
+    }
+    to {
+        box-shadow: 0 0 6px grey, inset 0 0 5px grey;
+        border: 4px solid #FFE555;
+        transform: scale(1);
+    }
+}

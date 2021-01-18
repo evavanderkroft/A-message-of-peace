@@ -1,0 +1,34 @@
+
+.layer-1-school {
+    position: relative;
+
+}
+
+.layer-2-school {
+    position: relative;
+    height: 100%;
+    width: 120%;
+}
+
+/*.layer-3-waterwell {
+    position: relative;
+    height: 100%;
+    width: 30vw;
+    bottom: 5vw;
+}
+.layer-nav {
+    height: 100%;
+    width: 100vw;
+}*/
+
+.background-school-2 {
+    background: url(/images/village/village-school.png) no-repeat 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    position: absolute;
+    width: 100%;
+    bottom: -10%;
+    height: 100%;
+    left: -5%;
+}
